@@ -82,7 +82,7 @@ figcaption
     background-color: #F6F168
   &-12
     background-color: #FFFDC8
-  &-12
+  &-13
     background-color: $white
 
   //borde redondeado---------
@@ -91,7 +91,7 @@ figcaption
   
   //Fondos ------------------
   &-01
-    background-image: url(../assets/curso/temas/bg1.png)
+    background-image: url(../assets/curso/temas/bg5.png)
     background-repeat: no-repeat
     background-size: cover
     margin-inline: -3.2rem !important
@@ -130,7 +130,7 @@ figcaption
       padding-right: 1rem !important
 
   &-07
-    background-image: url(../assets/curso/temas/bg1.png)
+    background-image: url(../assets/curso/temas/bg2.png)
     background-repeat: no-repeat
     background-size: 100% 100% 
     
@@ -144,10 +144,15 @@ figcaption
       background-size: cover 
 
   &-08
-    background-image: url(../assets/curso/temas/bg4.png)
+    background-image: url(../assets/curso/temas/bg1.png)
     background-repeat: no-repeat
     background-size: cover
-    margin-inline: -6.2rem !important
+    //margin-inline: -6.2rem !important
+  &-09
+    background-image: url(../assets/curso/temas/bg5.png)
+    background-repeat: no-repeat
+    background-size: cover
+    //margin-inline: -6.2rem !important
   
   &-61
     background-color: #CCDBE6 !important
@@ -313,12 +318,20 @@ figcaption
   .lista-ul--color li > i:first-of-type
     margin-left: -1rem !important
 
+.margin-text-left
+  margin-left: 1rem !important
+.margin-text-2
+  margin-left: 2rem !important
+
+.bloque-codigo
+  margin-bottom: 0rem !important
+  margin-top: 0rem !important
 
 .m-30
   margin-top: -30px
 
 .slyder-f__btn i 
-  color: #DAFE60
+  color: #9C2424
 
 .tarjeta-audio.color-acento-botones .tarjeta-audio__texto 
     color: black
@@ -346,14 +359,14 @@ figcaption
 
 ///cajones de color
 .cajon.color1:before          //color de la pestaña del cajón
-  background-color: #67CCF1
+  background-color: #9ECFFF
 .cajon.color1
-  background-color: #C2EBF9 //color del cajón
+  background-color: #DFEFFF //color del cajón
 
 .cajon.color2:before
-  background-color: #004B84
+  background-color: #CF9EFF
 .cajon.color2
-  background-color: #CCDBE6
+  background-color: #F1E2FF
 
 .cajon.color3:before
   background-color: #FE93C4
@@ -388,9 +401,9 @@ figcaption
   &::after
     display: none !important
 
-// Custom para la Línea te tiempo C
+// Custom para la Línea de tiempo C
 .linea-tiempo-c__header__btn, .linea-tiempo-c__header__btn--left, .linea-tiempo-c__header__btn--right, .pasos-b__header__btn--left, .pasos-b__header__btn--right
-  background-color: #DAFE60 !important
+  background-color: #9C2424 !important
   border: none
 
 .pasos-b__header__item--before .pasos-b__header__item__dot
@@ -611,3 +624,228 @@ figcaption
 //Custom para btn slyderB-----------
 .slyder__btn
   background-color: #DAFE60
+
+//Linea de tiempo C
+.linea-tiempo-c
+  display: flex
+  flex-direction: column
+  &__header
+    display: flex
+    align-items: center
+    &__items
+      display: flex
+      flex: auto
+      .horizontal-scroll
+        align-items: flex-end !important
+    &__item
+      display: flex
+      flex-direction: column
+      align-items: center
+      cursor: pointer
+
+      &__year
+        line-height: 1.1em
+        text-align: center
+        margin-bottom: 10px
+
+      &__line-container
+        width: 100%
+        display: flex
+        align-items: center
+
+        &:after, &:before
+          content: ''
+          display: block
+          width: 50%
+          height: 3px
+          background-color: #9C2424
+
+      &__dot
+        min-width: 20px
+        max-width: 20px
+        min-height: 20px
+        max-height: 20px
+        border: 3px solid #9C2424 !important
+        // background-color: $color-sistema-f
+        border-radius: 50%
+        background-color: $white !important
+        
+
+      &--active
+        .linea-tiempo-c__header__item
+          &__year
+            font-weight: $base-black-font-weight
+          &__line-container
+            &:before
+              background-color: #9C2424
+          &__dot
+            border-color: $color-acento-contenido
+            position: relative
+            &:after
+              content: ''
+              display: block
+              width: 9px
+              height: 9px
+              background-color: #9C2424 !important
+              border-radius: 50%
+              position: absolute
+              left: 50%
+              top: 50%
+              transform: translate(-50%, -50%)
+              color: #9C2424 !important
+
+
+      &--before
+        .linea-tiempo-c__header__item
+          &__line-container
+            &:before, &:after
+              background-color: #9C2424
+          &__dot
+            border-color: #9C2424
+
+      &:first-child
+        .linea-tiempo-c__header__item__line-container
+          &:before
+            background-color: transparent !important
+
+      &:last-child
+        .linea-tiempo-c__header__item__line-container
+          &:after
+            background-color: transparent !important
+
+
+    &__btn
+      min-width: 50px
+      max-width: 50px
+      min-height: 50px
+      max-height: 50px
+      flex: auto
+      border-radius: 50%
+      border: 2px solid #9C2424
+      background-color: $white
+      position: relative
+      cursor: pointer
+      transition: border-color 0.2s ease-in-out
+      i
+        position: absolute
+        left: 50%
+        top: 50%
+        transform: translate(-45%, -45%)
+        // color: $lighten-gray
+        font-size: 1.3em
+        display: block
+        line-height: 1em
+        color: $white !important
+      &:hover
+        border-color: $white
+
+
+      &--left, &--right
+        @extend .linea-tiempo-c__header__btn
+
+  @media (max-width: $bp-max-sm)
+    &__header
+      &__items
+        flex-wrap: wrap
+        justify-content: center
+      &__item
+        flex: none
+        min-width: 25%
+        margin-bottom: 10px
+  @media (max-width: $bp-max-xs)
+    &__header
+      &__btn
+        min-width: 30px
+        max-width: 30px
+        min-height: 30px
+        max-height: 30px
+
+  &.color-primario
+    .linea-tiempo-c__header__item--active
+      .linea-tiempo-c__header__item
+        &__line-container
+          &:before
+            background-color: #9C2424
+        &__dot
+          border-color: $color-primario
+          &:after
+            background-color: #9C2424
+    .linea-tiempo-c__header__item--before
+      .linea-tiempo-c__header__item
+        &__line-container
+          &:before, &:after
+            background-color: $color-primario
+        &__dot
+          border-color: $color-primario
+
+  &.color-secundario
+    .linea-tiempo-c__header__item--active
+      .linea-tiempo-c__header__item
+        &__line-container
+          &:before
+            background-color: $color-secundario
+        &__dot
+          border-color: $color-secundario
+          &:after
+            background-color: $color-secundario
+    .linea-tiempo-c__header__item--before
+      .linea-tiempo-c__header__item
+        &__line-container
+          &:before, &:after
+            background-color: $color-secundario
+        &__dot
+          border-color: $color-secundario
+  &.color-acento-contenido
+    .linea-tiempo-c__header__item--active
+      .linea-tiempo-c__header__item
+        &__line-container
+          &:before
+            background-color: $color-acento-contenido
+        &__dot
+          border-color: $color-acento-contenido
+          &:after
+            background-color: $color-acento-contenido
+    .linea-tiempo-c__header__item--before
+      .linea-tiempo-c__header__item
+        &__line-container
+          &:before, &:after
+            background-color: $color-acento-contenido
+        &__dot
+          border-color: #9C2424
+  &.color-acento-botones
+    .linea-tiempo-c__header__item--active
+      .linea-tiempo-c__header__item
+        &__line-container
+          &:before
+            background-color: #9C2424
+        &__dot
+          border-color: #9C2424
+          &:after
+            background-color: #9C2424
+    .linea-tiempo-c__header__item--before
+      .linea-tiempo-c__header__item
+        &__line-container
+          &:before, &:after
+            background-color: #9C2424
+        &__dot
+          border-color: #9C2424
+
+  .indicador__container
+    transform: translateY(10px)
+
+//Tarjeta conectada
+.conectada
+  border-radius: 0px !important
+.border-radius-r
+  border-radius: 0 20px 20px 0
+
+//-Borde superior tabla.a
+.tabla-a
+  overflow-x: auto
+  table
+    min-width: 700px
+  thead
+    border-top: 5px solid
+    color: $table-header-color
+    background-color: $table-header-bg-color
+    border-color: #FFEBBE !important
