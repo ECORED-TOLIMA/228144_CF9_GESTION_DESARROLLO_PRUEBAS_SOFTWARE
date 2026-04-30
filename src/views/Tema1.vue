@@ -327,11 +327,11 @@
 
       p.mt-4 Los métodos son funciones o procedimientos definidos dentro de la clase que describen el comportamiento de los objetos. Pueden acceder y modificar los atributos del objeto, recibir parámetros y retornar valores. El siguiente ejemplo ilustra la definición de una clase con ambos componentes:
 
-    .row.justify-content-center
-      .col-lg-10
-        .row.align-items-center.bg-09.bg-r8
-          .col-lg-12.p-5.text-white
-            .py-5
+      //-Elemento con bloques de còdigo
+      .row.justify-content-center.mt-4
+        .col-lg-10.bg-code1
+          .row
+            .col-lg-12.text-white
               p.mt-5.mb-0 public class Persona {
               p.margin-text-left.mt-0.mb-0 // Atributos (estado del objeto)
               p.margin-text-left.bloque-codigo private String nombre;
@@ -353,6 +353,277 @@
               p.margin-text-left.mb-0 }  
 
               p.mt-0 }
+
+
+    .row.justify-content-center.mt-5
+      p.text-center Igualmente, la siguiente tabla presenta los tipos de atributos y métodos más comunes en Java, junto con su descripción y el modificador que los declara:
+
+      .col-lg-10
+        .row.align-items-center
+          .col-lg-12
+            .titulo-sexto.color-acento-contenido.mb-3.mt-4
+              h5 Tabla 2.
+              span Comparativo entre paradigmas de programación.
+
+            .tabla-a.color-acento-contenido
+              table
+                thead(style="background-color: #FFEBBE")
+                  tr
+                    th(style="width: 240px;") Tipo
+                    th(style="width: 260px;") Declaración Java
+                    th Descripción
+                tbody
+                  tr(style="background-color: #F6F6F6")
+                    td.text-start Atributo de instancia.
+                    td.text-start private tipo nombre;
+                    td.text-start Único para cada objeto. Almacena el estado individual.
+                  tr
+                    td.text-start Atributo de clase.
+                    td.text-start static tipo nombre;
+                    td.text-start Compartido por todos los objetos de la clase.
+                  tr(style="background-color: #F6F6F6")
+                    td.text-start Atributo constante.
+                    td.text-start static final tipo NOMBRE;
+                    td.text-start Valor fijo que no puede modificarse tras la inicialización.
+                  tr
+                    td.text-start Método de instancia.
+                    td.text-start public tipo metodo()
+                    td.text-start Opera sobre los datos del objeto que lo invoca.
+                  tr(style="background-color: #F6F6F6")
+                    td.text-start Método estático.
+                    td.text-start public static tipo metodo()
+                    td.text-start Puede invocarse sin crear un objeto; opera sobre datos de clase.
+                  tr
+                    td.text-start Getter.
+                    td.text-start public tipo getNombre()
+                    td.text-start Retorna el valor de un atributo privado.
+                  tr(style="background-color: #F6F6F6")
+                    td.text-start Setter.
+                    td.text-start public void setNombre(tipo v)
+                    td.text-start Asigna un valor al atributo privado, con posible validación.
+
+
+    separador
+    #t_1_4.titulo-segundo.color-acento-contenido
+      h2 1.4 Principios de herencia y polimorfismo
+
+    .row.align-items-center.justify-content-center
+      .col-lg-12
+        .row.justify-content-center
+          .col-lg-12(data-aos="fade-down")
+            .row.d-flex.align-items-center(data-aos="fade-right")
+              .col-lg-auto.pe-lg-0.mb-4.mb-xl-0.d-flex.d-none.d-lg-block
+                figure.m-0.p-0.w-100.h-100.d-flex
+                  img(src='@/assets/curso/tema1/24.png', alt='', class="w-100 h-100 object-fit-cover", style="margin-left:-10px")
+              .col-lg.mt-2
+                p La herencia y el polimorfismo son dos de los cuatro pilares fundamentales del paradigma orientado a objetos y constituyen los mecanismos que aportan mayor flexibilidad y capacidad de extensión al diseño de sistemas.
+
+                .cajon.color1.p-4.mt-2
+                  p La herencia permite que una subclase (o clase derivada) adquiera los atributos y métodos de una superclase (o clase base). En Java, la herencia se declara con la palabra clave extends. Una subclase puede añadir nuevos atributos y métodos, o redefinir los métodos heredados para adaptar su comportamiento. Java solo permite herencia simple entre clases (una clase solo puede extender una clase), lo que evita las ambigüedades propias de la herencia múltiple.
+
+                p.mt-3 Basado en lo anterior, se presente un ejemplo del uso de la herencia y el polimorfismo, evidenciando cómo una subclase hereda y redefine métodos de una superclase:
+
+      .row.justify-content-center.mt-4
+        .col-lg-10.bg-code2
+          .row
+            .col-lg-12.text-white              
+              p.mb-0.bloque-codigo // Superclase
+              p.mt-0.mb-0.bloque-codigo public class Animal {
+              p.margin-text-left.bloque-codigo protected String nombre;
+              
+              p.margin-text-left.mt-3.mb-0.bloque-codigo public Animal(String nombre) {
+              p.margin-text-2.bloque-codigo this.nombre = nombre;
+              p.margin-text-left.bloque-codigo }
+
+              p.margin-text-left.mt-3.mb-0.bloque-codigo public void hacerSonido() {
+              p.margin-text-2.bloque-codigo System.out.println(nombre + " hace un sonido genérico.");
+              p.margin-text-left.bloque-codigo }
+              p.mt-0.bloque-codigo }
+
+              p.mb-0.text-secondary // Subclase que hereda de Animal
+              p.mt-0.mb-0.bloque-codigo public class Perro extends Animal {
+              
+              p.margin-text-left.mt-3.mb-0.bloque-codigo public Perro(String nombre) {
+              p.margin-text-2.bloque-codigo super(nombre);  // Invoca el constructor de la superclase
+              p.margin-text-left.bloque-codigo }
+
+              p.margin-text-left.mt-3.mb-0.bloque-codigo @Override
+              p.margin-text-left.mt-1.bloque-codigo public void hacerSonido() {
+              p.margin-text-2.bloque-codigo System.out.println(nombre + " dice: ¡Guau!");
+              p.margin-text-left.bloque-codigo }
+              p.mt-0.bloque-codigo }
+
+              p.mb-0.text-secondary // Polimorfismo en acción:
+              p.mt-0.mb-0.bloque-codigo Animal a = new Perro("Rex");
+              p.mt-0.mb-0.bloque-codigo a.hacerSonido();  // Imprime: Rex dice: ¡Guau!
+        
+    .row.justify-content-center.mt-4
+      .col-lg-10
+        .row.align-items-center.bg-4
+          .col-lg-12.p-3
+            .row.align-items-start
+              .col-lg-1.mb-lg-0
+                figure(data-aos="fade-down")
+                  img(src='@/assets/curso/tema1/25.svg', style='width: 120px').m-auto
+              
+              .col
+                p El polimorfismo permite que una referencia de la superclase apunte a un objeto de cualquiera de sus subclases. En tiempo de ejecución, Java determina automáticamente qué versión del método invocar según el tipo real del objeto, gracias al mecanismo de enlace dinámico. La anotación @Override indica explícitamente que un método sobreescribe uno de la superclase y Java verificará en tiempo de compilación que la firma sea correcta.       
+
+    separador
+    #t_1_5.titulo-segundo.color-acento-contenido
+      h2 1.5 Constructores y ciclo de vida de los objetos
+    
+    .bloque-texto-g.bloque-texto-g--inverso.bg-3.p-3.p-sm-4.p-md-5
+      .bloque-texto-g__img(
+        :style="{'background-image': `url(${require('@/assets/curso/tema1/26.png')})`}"
+      )
+      .bloque-texto-g__texto.p-4
+        p.mb-0 En Java, el constructor es un método especial con el mismo nombre de la clase y sin tipo de retorno. Se ejecuta automáticamente cuando se crea un objeto con el operador new. Su función principal es inicializar los atributos del objeto con valores adecuados. Si no se define ningún constructor, Java proporciona automáticamente un constructor por defecto sin parámetros que inicializa los atributos a sus valores por defecto (0, false, null).
+    
+    p.mt-4 Java permite definir múltiples constructores en una misma clase, siempre que difieran en el número o tipo de parámetros (sobrecarga de constructores). Esto proporciona flexibilidad al crear objetos en distintos contextos. Es así como el siguiente ejemplo muestra el uso de constructores en Java, ilustrando la inicialización de objetos, la sobrecarga de constructores y su papel en el ciclo de vida de los objetos:
+
+      .row.justify-content-center.mt-4
+        .col-lg-10.bg-code3
+          .row
+            .col-lg-12.text-white              
+              p.mb-0.bloque-codigo public class Rectangulo {
+              p.margin-text-left.bloque-codigo private double ancho;
+              p.margin-text-left.bloque-codigo private double alto;
+              
+              p.margin-text-left.mt-3.mb-0 // Constructor por defecto
+              p.margin-text-left.bloque-codigo public Rectangulo() {
+              p.margin-text-2.bloque-codigo this.ancho = 0;
+              p.margin-text-2.bloque-codigo this.alto  = 0;
+              p.margin-text-left.mt-0 }
+
+              p.margin-text-left.mt-3.mb-0 // Constructor parametrizado
+              p.margin-text-left.bloque-codigo public Rectangulo(double ancho, double alto) {
+              p.margin-text-2.bloque-codigo this.ancho = ancho;
+              p.margin-text-2.bloque-codigo this.alto  = alto;
+              p.margin-text-left.mt-0 }
+
+              p.margin-text-left.mt-3.mb-0 // Constructor de copia (patrón manual en Java)
+              p.margin-text-left.bloque-codigo public Rectangulo(Rectangulo r) {
+              p.margin-text-2.bloque-codigo this.ancho = r.ancho;
+              p.margin-text-2.bloque-codigo this.alto  = r.alto;
+              p.margin-text-left.mt-0 }
+
+              p.margin-text-left.mt-3.mb-0 public double calcularArea()      { return ancho * alto; }
+              p.margin-text-left.bloque-codigo public double calcularPerimetro() { return 2 * (ancho + alto); }
+
+              p.margin-text-left.mt-3.mb-0 @Override
+              p.margin-text-left.bloque-codigo public String toString() {
+              p.margin-text-2.bloque-codigo return "Rectángulo[" + ancho + "x" + alto + "] Area=" + calcularArea();
+              p.margin-text-left.mt-0 }
+
+              p.mt-0 }
+
+              p.mb-0.bloque-codigo // Uso:
+              p.mb-0.bloque-codigo Rectangulo r1 = new Rectangulo();           // Constructor por defecto
+              p.mb-0.bloque-codigo Rectangulo r2 = new Rectangulo(5.0, 3.0);   // Constructor parametrizado
+              p.mb-0.bloque-codigo Rectangulo r3 = new Rectangulo(r2);          // Constructor de copia
+              p.mb-0.bloque-codigo System.out.println(r2);  // Rectángulo[5.0x3.0] Area=15.0
+
+    .row.justify-content-center.mt-4
+      .col-lg-10
+        .row.align-items-center
+          .col-lg-12
+            .cajon.color1.p-4
+              p En Java, a diferencia de C++, no existen destructores explícitos. La gestión de memoria es automática a través del Garbage Collector (GC), que detecta y libera los objetos sin referencias activas. Cuando es necesario liberar recursos específicos (archivos, conexiones de red), se utiliza el bloque try-with-resources introducido en Java 7, que cierra automáticamente los recursos al finalizar el bloque.
+
+    separador
+    #t_1_6.titulo-segundo.color-acento-contenido
+      h2 1.6 Clases abstractas, interfaces y principios SOLID
+    
+    p En Java, una clase abstracta se declara con la palabra clave abstract y puede contener dos tipos de métodos:
+
+    .row.justify-content-center.mb-5
+      .col-lg-6.mb-4.mb-lg-0.mb-5
+        .tarjeta-img-izq.p-4.bg-4
+          .tarjeta-img-izq__icon
+            img(src='@/assets/curso/tema1/27.svg')
+          .tarjeta-img-izq__text
+            h4 Abstractos
+            p Se declaran sin cuerpo y definen comportamientos que la clase base no implementa directamente, estableciendo un contrato que las subclases deben cumplir mediante su propia implementación.
+
+      .col-lg-6
+        .tarjeta-img-izq.p-4.bg-4
+          .tarjeta-img-izq__icon
+            img(src='@/assets/curso/tema1/28.svg')
+          .tarjeta-img-izq__text
+            h4 Concretos
+            p Cuentan con una implementación definida y permiten a la clase abstracta ofrecer funcionalidad común, que puede ser utilizada directamente por las subclases o redefinida para adaptar su comportamiento a necesidades específicas.
+
+    .row.bg-07.p-md-5.mt-0
+      .row.align-items-center.justify-content-center.p-4
+        .col-lg-10
+
+          .row.align-items-center.justify-content-center
+            .col-lg-12(data-aos="fade-down")
+              .row.d-flex.align-items-center(data-aos="fade-right")
+                .col-lg-5.pe-lg-0.mb-4.mb-xl-0.d-flex.d-none.d-lg-block
+                  figure.m-0.p-0.w-100.h-100.d-flex
+                    img(src='@/assets/curso/tema1/29.png', alt='', class="w-100 h-100 object-fit-cover", style="margin-left:-10px")
+                .col-lg
+                  p No puede instanciarse directamente; su propósito es definir una estructura común y un contrato para las subclases que la extienden.
+                  p Por su parte, una interfaz (interface) es un contrato de comportamiento más estricto: todos sus métodos son implícitamente abstractos (antes de Java 8) y públicos. Una clase puede implementar múltiples interfaces con la palabra clave implements, lo que simula la herencia múltiple de comportamiento sin las ambigüedades asociadas. Igualmente, se ejemplifica el uso de una clase abstracta, combinando métodos abstractos y concretos, y evidencia el polimorfismo al tratar distintas formas mediante una referencia común:
+
+    .row.justify-content-center
+      .col-lg-10.bg-code4
+        .row
+          .col-lg-12.text-white              
+            p.mb-0.bloque-codigo // Clase abstracta
+            p.mb-0.bloque-codigo public abstract class Forma {
+            p.margin-text-left.bloque-codigo public abstract double calcularArea();
+            p.margin-text-left.bloque-codigo public abstract double calcularPerimetro();
+
+            
+            p.margin-text-left.mt-3.mb-0 // Método concreto compartido por todas las subclases
+            p.margin-text-left.bloque-codigo public void mostrarDatos() {
+            p.margin-text-2.bloque-codigo System.out.println("Área: " + calcularArea() +
+            p.margin-text-3.bloque-codigo  " | Perímetro: " + calcularPerimetro());
+            p.margin-text-left.bloque-codigo }
+            p.mt-0 }
+
+            p.mb-0.bloque-codigo public class Circulo extends Forma {
+            p.margin-text-left.bloque-codigo private double radio;
+            p.margin-text-left public Circulo(double radio) { this.radio = radio; }
+
+            p.margin-text-left.bloque-codigo @Override public double calcularArea()      { return Math.PI * radio * radio; }
+            p.margin-text-left.bloque-codigo @Override public double calcularPerimetro() { return 2 * Math.PI * radio; }
+            
+            p.mt-0 }
+
+            p.mb-0.bloque-codigo // Uso polimórfico:
+            p.mb-0.bloque-codigo List&lt;Forma&gt; formas = new ArrayList<>();
+            p.mb-0.bloque-codigo formas.add(new Circulo(5.0));
+            p.mb-0.bloque-codigo formas.add(new Rectangulo(4.0, 6.0));
+            p.mb-0.bloque-codigo for (Forma f : formas) f.mostrarDatos();
+
+    p.mt-4 Para finalizar, los principios SOLID, formulados por Martin (2008), constituyen un conjunto de cinco directrices del diseño orientado a objetos que guían la construcción de software mantenible, escalable y bien estructurado. Su aplicación es especialmente relevante en proyectos Java de mediana y gran escala, y se describen a continuación:
+
+
+    .row.justify-content-center.mt-4
+      .col-lg-4.d-none.d-lg-block
+        figure(data-aos="fade-up")
+          img(src='@/assets/curso/tema1/30.png', alt='', style="width: 100%").m-auto
+      .col-lg-8
+        LineaTiempoD.color-primario.linea-bold
+          .row(numero="S" titulo="Responsabilidad Única (SRP)")
+            p Cada clase debe tener una única razón para cambiar; es decir, debe encargarse de una sola responsabilidad bien definida.
+    
+          .row(numero="O" titulo="Abierto/Cerrado (OCP)")
+            p Las clases deben estar abiertas para la extensión (se puede añadir comportamiento nuevo) pero cerradas para la modificación (sin alterar el código existente).
+    
+          .row(numero="L" titulo="Sustitución de Liskov (LSP)")
+            p Los objetos de una subclase deben poder sustituir a los de la superclase sin alterar el correcto funcionamiento del programa.
+
+          .row(numero="I" titulo="Segregación de Interfaces (ISP)")
+            p Es preferible tener varias interfaces específicas y pequeñas que una única interfaz general y extensa.
+
+          .row(numero="D" titulo="Inversión de Dependencias (DIP)")
+            p Los módulos de alto nivel no deben depender de módulos de bajo nivel; ambos deben depender de abstracciones (clases abstractas o interfaces).
+    
 
 </template>
 

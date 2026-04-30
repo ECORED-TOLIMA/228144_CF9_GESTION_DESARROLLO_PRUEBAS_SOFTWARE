@@ -91,7 +91,7 @@ figcaption
   
   //Fondos ------------------
   &-01
-    background-image: url(../assets/curso/temas/bg5.png)
+    background-image: url(../assets/curso/temas/bg1.png)
     background-repeat: no-repeat
     background-size: cover
     margin-inline: -3.2rem !important
@@ -130,7 +130,7 @@ figcaption
       padding-right: 1rem !important
 
   &-07
-    background-image: url(../assets/curso/temas/bg2.png)
+    background-image: url(../assets/curso/temas/bg3.png)
     background-repeat: no-repeat
     background-size: 100% 100% 
     
@@ -148,11 +148,44 @@ figcaption
     background-repeat: no-repeat
     background-size: cover
     //margin-inline: -6.2rem !important
-  &-09
-    background-image: url(../assets/curso/temas/bg5.png)
+
+  &-code1
+    background-image: url(../assets/curso/temas/bg-code1.png)
     background-repeat: no-repeat
-    background-size: cover
-    //margin-inline: -6.2rem !important
+    background-position: top center
+    background-size: 100% 100% 
+    padding: 70px 40px 40px 40px !important  
+    border-radius: 15px
+    overflow: hidden
+
+  &-code2
+    background-image: url(../assets/curso/temas/bg-code2.png)
+    background-repeat: no-repeat
+    background-position: top center
+    background-size: 100% 100% 
+    padding: 70px 40px 40px 40px !important  
+    border-radius: 15px
+    overflow: hidden
+
+  &-code3
+    background-image: url(../assets/curso/temas/bg-code3.png)
+    background-repeat: no-repeat
+    background-position: top center
+    background-size: 100% 100% 
+    padding: 70px 40px 40px 40px !important  
+    border-radius: 15px
+    overflow: hidden
+
+  &-code4
+    background-image: url(../assets/curso/temas/bg-code4.png)
+    background-repeat: no-repeat
+    background-position: top center
+    background-size: 100% 100% 
+    padding: 70px 40px 40px 40px !important  
+    border-radius: 15px
+    overflow: hidden
+
+
   
   &-61
     background-color: #CCDBE6 !important
@@ -319,9 +352,14 @@ figcaption
     margin-left: -1rem !important
 
 .margin-text-left
-  margin-left: 1rem !important
+  margin-left: 20px
+
 .margin-text-2
-  margin-left: 2rem !important
+  margin-left: 40px
+.margin-text-3
+  margin-left: 80px
+
+
 
 .bloque-codigo
   margin-bottom: 0rem !important
@@ -568,16 +606,16 @@ figcaption
   &.color-primario
     .linea-tiempo-d__item--selected
       .linea-tiempo-d__item__number
-        background-color: $color-acento-botones
-        color: textColor($color-acento-botones)
+        background-color: #DFEFFF
+        color: $black
       .linea-tiempo-d__item__content
-        background-color: #F8FFDF !important
+        background-color: #DFEFFF !important
         color: textColor($color-acento-contenido)
     .linea-tiempo-d__item__number
        background-color: $color-acento-botones
        color: textColor($color-acento-botones)
     .linea-tiempo-d__item__content
-      background-color: #C3C2D8
+      background-color: #EEE7E7
       color: textColor($color-acento-contenido)
 
 .linea-bold
@@ -849,3 +887,51 @@ figcaption
     color: $table-header-color
     background-color: $table-header-bg-color
     border-color: #FFEBBE !important
+
+//Tarjeta izquierda
+.tarjeta-img-izq 
+  position: relative
+  display: flex
+  align-items: center
+  height: 100%
+  margin-left: 45px 
+  border-radius: 15px 
+
+  &__icon
+    position: absolute
+    left: -50px 
+    width: 100px
+    height: 100px
+    display: flex
+    align-items: center
+    justify-content: center
+    border-radius: 50%
+    
+    img 
+      width: m-auto // Tamaño del icono interno
+    
+
+  &__text
+    padding-left: 55px
+    h4 
+      margin-bottom: 5px
+    
+    p 
+      margin-bottom: 0
+
+// Ajuste para móvil
+@media (max-width: $bp-max-sm)
+  .tarjeta-custom
+    margin-left: 0
+    margin-top: 50px
+    flex-direction: column
+    padding-top: 60px !important
+    
+    &__icon
+      left: 50%
+      top: -50px
+      transform: translateX(-50%)
+    
+    &__text
+      padding-left: 0
+      text-align: center
