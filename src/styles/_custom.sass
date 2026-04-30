@@ -84,6 +84,8 @@ figcaption
     background-color: #FFFDC8
   &-13
     background-color: $white
+  &-14
+    border-left-color: #8CE6FE
 
   //borde redondeado---------
   &-r8
@@ -157,6 +159,11 @@ figcaption
     padding: 70px 40px 40px 40px !important  
     border-radius: 15px
     overflow: hidden
+    
+    @media (max-width: 767px) 
+      background-image: none !important
+      background-color: #120924 !important
+      padding: 20px !important
 
   &-code2
     background-image: url(../assets/curso/temas/bg-code2.png)
@@ -166,6 +173,11 @@ figcaption
     padding: 70px 40px 40px 40px !important  
     border-radius: 15px
     overflow: hidden
+    
+    @media (max-width: 767px) 
+      background-image: none !important
+      background-color: #120924 !important
+      padding: 20px !important
 
   &-code3
     background-image: url(../assets/curso/temas/bg-code3.png)
@@ -175,6 +187,11 @@ figcaption
     padding: 70px 40px 40px 40px !important  
     border-radius: 15px
     overflow: hidden
+    
+    @media (max-width: 767px) 
+      background-image: none !important
+      background-color: #120924 !important
+      padding: 20px !important
 
   &-code4
     background-image: url(../assets/curso/temas/bg-code4.png)
@@ -184,6 +201,25 @@ figcaption
     padding: 70px 40px 40px 40px !important  
     border-radius: 15px
     overflow: hidden
+
+    @media (max-width: 767px) 
+      background-image: none !important
+      background-color: #120924 !important
+      padding: 20px !important
+
+  &-code5
+    background-image: url(../assets/curso/temas/bg-code5.png)
+    background-repeat: no-repeat
+    background-position: top center
+    background-size: 100% 100% 
+    padding: 70px 40px 40px 40px !important  
+    border-radius: 15px
+    overflow: hidden
+
+    @media (max-width: 767px) 
+      background-image: none !important
+      background-color: #120924 !important
+      padding: 20px !important
 
 
   
@@ -197,7 +233,7 @@ figcaption
     margin-left: 3rem
     margin-right: 1rem
     margin-bottom: 0
-  background-color: #67CCF1
+  background-color: #FFEBBE
   display: inline-block
   padding: 0.5rem 1rem
   border-radius: 1rem
@@ -502,6 +538,7 @@ figcaption
   border-radius: 20px
   position: relative
   margin-left: 30px
+  height: 290px
   &__numero
     border-radius: 60px
     width: 60px
@@ -536,11 +573,11 @@ figcaption
       div
         color: textColor($color-acento-contenido)
   &.color-acento-botones
-    border-color: #C3C2D8
+    border-color: #F6F168
     .tarjeta-numerada__numero
-      background-color: #C3C2D8
+      background-color: #F6F168
       div
-        color: textColor(#C3C2D8)
+        color: textColor(#F6F168)
 
 ///////// Card hover --------------------------------------
 .crd_hover_txt
@@ -935,3 +972,37 @@ figcaption
     &__text
       padding-left: 0
       text-align: center
+
+
+//-Custom para tarjetas con imagen superior Tema 2---
+.tarjeta-diagrama 
+  height: 100%
+  display: flex
+  flex-direction: column
+  border-radius: 0 
+  overflow: visible 
+
+  &__header 
+    position: relative
+    width: 100%
+
+    img 
+      width: 100%
+      height: auto
+    
+  &__body 
+    background-color: #9ECFFF
+    padding: 40px 30px 30px 30px 
+    flex-grow: 1
+
+    h4 
+      color: #0b2f5b 
+      font-weight: bold
+      margin-bottom: 15px    
+
+    p 
+      color: #333
+      font-size: 0.95rem
+      line-height: 1.5
+    
+  

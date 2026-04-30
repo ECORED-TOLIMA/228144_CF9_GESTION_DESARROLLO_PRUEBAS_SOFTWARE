@@ -462,7 +462,7 @@
         .row.align-items-center.bg-4
           .col-lg-12.p-3
             .row.align-items-start
-              .col-lg-1.mb-lg-0
+              .col-lg-1.mb-lg-0.d-flex.d-none.d-lg-block
                 figure(data-aos="fade-down")
                   img(src='@/assets/curso/tema1/25.svg', style='width: 120px').m-auto
               
