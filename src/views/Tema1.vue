@@ -259,7 +259,7 @@
       .col-lg-12
         figure(data-aos="fade-down")
           .video
-            iframe(width="560" height="315" src="https://youtu.be/bXgLHKaXXaM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            iframe(width="560" height="315" src="https://www.youtube.com/watch?v=bXgLHKaXXaM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
 
     p.text-center.mt-4 Los siguientes son conceptos clave relacionados con clases y objetos en Java:

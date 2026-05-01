@@ -37,7 +37,7 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Tema 1',
+        titulo: 'Fundamentos de la programación orientada a objetos',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -76,7 +76,7 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Tema 2',
+        titulo: 'Modelado de sistemas mediante UML',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -110,7 +110,7 @@ export default {
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Tema 3',
+        titulo: 'Encapsulamiento y control de acceso en clases',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -138,7 +138,7 @@ export default {
       {
         nombreRuta: 'tema4',
         numero: '4',
-        titulo: 'Tema 4',
+        titulo: 'Implementación de la programación orientada a objetos en Java',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -166,7 +166,7 @@ export default {
       {
         nombreRuta: 'tema5',
         numero: '5',
-        titulo: 'Tema 5',
+        titulo: 'Validación y ajustes del programa',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -194,7 +194,7 @@ export default {
       {
         nombreRuta: 'tema6',
         numero: '6',
-        titulo: 'Tema 6',
+        titulo: 'Proyecto integrador: sistema de registro académico',
         desarrolloContenidos: true,
         subMenu: [
           {
