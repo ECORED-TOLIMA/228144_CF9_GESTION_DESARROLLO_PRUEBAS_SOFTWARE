@@ -28,28 +28,30 @@ export default {
         {
           id: 1,
           texto:
-            '¿Cuál es la función principal de la herramienta <em>Layer</em> en la ventana <em>Board</em>?',
+            '¿Cuál de los siguientes conceptos describe mejor lo que es una clase en programación orientada a objetos?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto: 'Un objeto creado en memoria con valores concretos.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto:
+                'Una plantilla o molde que define atributos y métodos de los objetos.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto:
+                'Un método que ejecuta instrucciones dentro de un programa.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Una variable que almacena datos de tipo primitivo.',
               esCorrecta: false,
             },
           ],
@@ -59,28 +61,28 @@ export default {
         {
           id: 2,
           texto:
-            '¿Qué herramienta permite agregar texto en la ventana <em>Board</em>?',
-          imagen: require('@/assets/actividad/imagen2.png'),
+            'Si en Java se escribe Estudiante e1 = new Estudiante("Ana", 20), ¿qué se está creando?',
+          imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'Una clase nueva llamada Estudiante.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Un método llamado Estudiante.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
+              texto: 'Una instancia u objeto concreto de la clase Estudiante.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Una interfaz con los datos de Ana.',
               esCorrecta: false,
             },
           ],
@@ -89,28 +91,29 @@ export default {
         },
         {
           id: 3,
-          texto: '¿Para qué sirve la herramienta <em>Show</em> en EAGLE?',
-          imagen: require('@/assets/actividad/imagen3.png'),
+          texto:
+            '¿Qué palabra clave se utiliza en Java para que una subclase herede de una superclase?',
+          imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'implements.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'super.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
+              texto: 'extends.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Inherit.',
               esCorrecta: false,
             },
           ],
@@ -120,29 +123,29 @@ export default {
         {
           id: 4,
           texto:
-            '¿Qué botón se utiliza para cambiar entre las ventanas <em>Schematic</em> y <em>Board</em>?',
-          imagen: require('@/assets/actividad/imagen4.png'),
+            '¿Qué anotación se usa en Java para indicar que un método sobreescribe al de la superclase y activar el polimorfismo dinámico?',
+          imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: '@Herencia.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: '@Extends.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: '@Super.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
-              esCorrecta: false,
+              texto: '@Override.',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -150,28 +153,31 @@ export default {
         },
         {
           id: 5,
-          texto: '¿Qué permite hacer la herramienta <em>Route</em>?',
-          imagen: require('@/assets/actividad/imagen1.png'),
+          texto:
+            'El encapsulamiento en programación orientada a objetos consiste en:',
+          imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto: 'Crear múltiples objetos a partir de una clase.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto:
+                'Ocultar los detalles internos de una clase y exponer solo la interfaz necesaria.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Heredar atributos de una clase padre a una clase hija.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto:
+                'Definir varios métodos con el mismo nombre y distintos parámetros.',
               esCorrecta: false,
             },
           ],
@@ -181,29 +187,29 @@ export default {
         {
           id: 6,
           texto:
-            '¿Qué función tiene la herramienta <em>Auto</em> en la ventana <em>Board</em>?',
-          imagen: require('@/assets/actividad/imagen2.png'),
+            'En un diagrama de clases UML, ¿qué símbolo indica que un atributo o método es privado?',
+          imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: '+ (más)',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: '# (numeral)',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: '~ (tilde)',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
-              esCorrecta: false,
+              texto: '- (menos)',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -212,28 +218,30 @@ export default {
         {
           id: 7,
           texto:
-            '¿Cuál es una recomendación al ubicar los componentes en la ventana <em>Board</em>?',
-          imagen: require('@/assets/actividad/imagen3.png'),
+            'En una relación de composición UML entre las clases Pedido y DetallePedido, ¿qué ocurre si se elimina el objeto Pedido?',
+          imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto:
+                'El DetallePedido continúa existiendo de forma independiente.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'El DetallePedido se transfiere a otro objeto.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
+              texto:
+                'Los objetos DetallePedido también son eliminados porque dependen del Pedido.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'No ocurre nada en el sistema.',
               esCorrecta: false,
             },
           ],
@@ -243,28 +251,28 @@ export default {
         {
           id: 8,
           texto:
-            '¿Cuál de las siguientes capas se utiliza para añadir texto en el diseño?',
+            '¿Cuál de los siguientes modificadores de acceso permite que un atributo sea visible desde la propia clase y desde sus subclases, pero no desde código externo?',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'public.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'private.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
+              texto: 'protected.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'static.',
               esCorrecta: false,
             },
           ],
@@ -274,19 +282,31 @@ export default {
         {
           id: 9,
           texto:
-            'La herramienta <em>Text</em> en la ventana <em>Board</em> solo permite cambiar el color de las capas.',
-          imagen: require('@/assets/actividad/imagen1.png'),
+            'Según los principios SOLID, el Principio de Responsabilidad Única (SRP) establece que:',
+          imagen: require('@/assets/actividad/imagen5.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto:
+                'Una clase puede implementar múltiples interfaces simultáneamente.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Cada clase debe tener una única razón para cambiar.',
               esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto:
+                'Los módulos de alto nivel deben depender de implementaciones concretas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Las clases deben estar cerradas para la extensión.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -295,18 +315,31 @@ export default {
         {
           id: 10,
           texto:
-            'La herramienta <em>Layer</em> permite seleccionar y editar capas para definir márgenes, pistas y componentes.',
-          imagen: require('@/assets/actividad/imagen2.png'),
+            '¿Cuál es la diferencia entre una clase abstracta y una interfaz en Java?',
+          imagen: require('@/assets/actividad/imagen5.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'No hay diferencia; ambas son equivalentes.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto:
+                'Una clase abstracta puede tener métodos concretos e implementación parcial; una interfaz solo define contratos de comportamiento.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto:
+                'Una interfaz puede instanciarse directamente; una clase abstracta no.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Una clase abstracta usa implements; una interfaz usa extends.',
               esCorrecta: false,
             },
           ],
@@ -316,19 +349,29 @@ export default {
         {
           id: 11,
           texto:
-            'El botón "<em>BOARD</em>" en EAGLE solo sirve para borrar componentes en el diseño.',
-          imagen: require('@/assets/actividad/imagen3.png'),
+            '¿Qué herramienta CASE gratuita y colaborativa en línea es ampliamente utilizada para crear diagramas UML en equipos ágiles?',
+          imagen: require('@/assets/actividad/imagen6.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'StarUML.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Enterprise Architect.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Lucidchart.',
               esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'IntelliJ IDEA.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -337,18 +380,30 @@ export default {
         {
           id: 12,
           texto:
-            'La herramienta <em>Show</em> permite resaltar conexiones para facilitar la identificación de redes.',
-          imagen: require('@/assets/actividad/imagen4.png'),
+            'En el diagrama UML de un sistema académico, la clase Persona tiene el nombre en cursiva. Esto indica que:',
+          imagen: require('@/assets/actividad/imagen6.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto:
+                'Es una clase concreta que puede instanciarse directamente.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Es una clase abstracta que no puede instanciarse.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Es una interfaz con solo métodos públicos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Es un atributo estático compartido por todos los objetos.',
               esCorrecta: false,
             },
           ],
@@ -358,19 +413,29 @@ export default {
         {
           id: 13,
           texto:
-            'La función <em>Auto</em> se utiliza para enrutado automático en la ventana <em>Board</em>.',
-          imagen: require('@/assets/actividad/imagen1.png'),
+            '¿Qué palabra clave se usa en Java para invocar al constructor de la superclase desde la subclase?',
+          imagen: require('@/assets/actividad/imagen7.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'this().',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'parent().',
               esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'base().',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'super().',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -379,19 +444,33 @@ export default {
         {
           id: 14,
           texto:
-            'La herramienta <em>Route</em> en la ventana <em>Board</em> ajusta automáticamente todas las pistas del diseño.',
-          imagen: require('@/assets/actividad/imagen2.png'),
+            '¿Cuál es la diferencia entre polimorfismo estático y polimorfismo dinámico en Java?',
+          imagen: require('@/assets/actividad/imagen7.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto:
+                'El polimorfismo estático usa @Override; el dinámico usa métodos con el mismo nombre.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto:
+                'El polimorfismo estático se resuelve en tiempo de compilación mediante sobrecarga; el dinámico en tiempo de ejecución mediante @Override.',
               esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto:
+                'No existe diferencia; ambos se resuelven en tiempo de ejecución.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'El polimorfismo dinámico solo aplica a métodos estáticos.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -400,18 +479,193 @@ export default {
         {
           id: 15,
           texto:
-            'Es recomendable organizar los componentes en bloques funcionales como transformación y filtrado en la ventana <em>Board</em>.',
-          imagen: require('@/assets/actividad/imagen3.png'),
+            '¿Qué tipo de excepción se debe lanzar en Java cuando se pasa un argumento inválido a un método setter?',
+          imagen: require('@/assets/actividad/imagen8.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'IOException.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'NullPointerException.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'IllegalArgumentException.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'ClassNotFoundException.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 16,
+          texto:
+            'En Java, ¿qué framework estándar se utiliza para escribir y ejecutar pruebas unitarias aplicando el patrón AAA (Arrange, Act, Assert)?',
+          imagen: require('@/assets/actividad/imagen8.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Mockito.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'JUnit 5.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Maven.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Gradle.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 17,
+          texto:
+            '¿Cuál de los siguientes patrones de diseño garantiza que una clase tenga exactamente una única instancia durante toda la ejecución del programa?',
+          imagen: require('@/assets/actividad/imagen9.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Factory Method.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Observer.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Singleton.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Strategy.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 18,
+          texto:
+            'En el proyecto integrador del sistema académico, la clase Persona es abstracta y tiene el método obtenerRol(). ¿Por qué este método debe ser abstracto?',
+          imagen: require('@/assets/actividad/imagen9.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Porque Persona no tiene atributos y necesita al menos un método.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Porque cada subclase (Estudiante, Docente) debe definir su propio rol sin que Persona imponga una implementación.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto:
+                'Porque los métodos abstractos son más rápidos en ejecución.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Porque Java exige que todas las superclases tengan métodos abstractos.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 19,
+          texto:
+            '¿Qué relación existe entre las clases Curso y Estudiante en el sistema académico cuando un Estudiante puede existir sin estar matriculado en ningún Curso?',
+          imagen: require('@/assets/actividad/imagen10.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Composición, porque los estudiantes dependen del curso para existir.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Herencia, porque Estudiante extiende Curso.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Agregación, porque la relación es débil y las partes son independientes.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Asociación bidireccional fuerte sin jerarquía.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 20,
+          texto:
+            '¿Cuál de las siguientes afirmaciones sobre el patrón Observer en Java es correcta?',
+          imagen: require('@/assets/actividad/imagen10.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Define una única instancia de una clase accesible globalmente.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Delega la creación de objetos a métodos o subclases para desacoplar el código.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Define una dependencia uno a muchos: cuando el objeto observado cambia, todos sus observadores son notificados.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto:
+                'Encapsula algoritmos intercambiables que pueden seleccionarse en tiempo de ejecución.',
               esCorrecta: false,
             },
           ],
