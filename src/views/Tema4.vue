@@ -307,7 +307,7 @@
                 tbody
                   tr(style="background-color: #F6F6F6")
                     td.text-start Momento de resolución.
-                    td.text-start Tiempo de compilación..
+                    td.text-start Tiempo de compilación.
                     td.text-start Tiempo de ejecución.
                   tr
                     td.text-start Mecanismo Java
