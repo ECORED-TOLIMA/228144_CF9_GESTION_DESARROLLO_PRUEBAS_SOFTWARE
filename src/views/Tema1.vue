@@ -329,7 +329,7 @@
 
       //-Elemento con bloques de còdigo
       .row.justify-content-center.mt-4
-        .col-lg-10.bg-code1
+        .col-lg-9.bg-code1
           .row
             .col-lg-12.text-white
               p.mt-5.mb-0 public class Persona {
@@ -424,7 +424,7 @@
                 p.mt-3 Basado en lo anterior, se presente un ejemplo del uso de la herencia y el polimorfismo, evidenciando cómo una subclase hereda y redefine métodos de una superclase:
 
       .row.justify-content-center.mt-4
-        .col-lg-10.bg-code2
+        .col-lg-9.bg-code2
           .row
             .col-lg-12.text-white              
               p.mb-0.bloque-codigo // Superclase
@@ -458,7 +458,7 @@
               p.mt-0.mb-0.bloque-codigo a.hacerSonido();  // Imprime: Rex dice: ¡Guau!
         
     .row.justify-content-center.mt-4
-      .col-lg-10
+      .col-lg-9
         .row.align-items-center.bg-4
           .col-lg-12.p-3
             .row.align-items-start
@@ -483,7 +483,7 @@
     p.mt-4 Java permite definir múltiples constructores en una misma clase, siempre que difieran en el número o tipo de parámetros (sobrecarga de constructores). Esto proporciona flexibilidad al crear objetos en distintos contextos. Es así como el siguiente ejemplo muestra el uso de constructores en Java, ilustrando la inicialización de objetos, la sobrecarga de constructores y su papel en el ciclo de vida de los objetos:
 
       .row.justify-content-center.mt-4
-        .col-lg-10.bg-code3
+        .col-lg-9.bg-code3
           .row
             .col-lg-12.text-white              
               p.mb-0.bloque-codigo public class Rectangulo {
@@ -525,7 +525,7 @@
               p.mb-0.bloque-codigo System.out.println(r2);  // Rectángulo[5.0x3.0] Area=15.0
 
     .row.justify-content-center.mt-4
-      .col-lg-10
+      .col-lg-9
         .row.align-items-center
           .col-lg-12
             .cajon.color1.p-4
@@ -569,7 +569,7 @@
                   p Por su parte, una interfaz (interface) es un contrato de comportamiento más estricto: todos sus métodos son implícitamente abstractos (antes de Java 8) y públicos. Una clase puede implementar múltiples interfaces con la palabra clave implements, lo que simula la herencia múltiple de comportamiento sin las ambigüedades asociadas. Igualmente, se ejemplifica el uso de una clase abstracta, combinando métodos abstractos y concretos, y evidencia el polimorfismo al tratar distintas formas mediante una referencia común:
 
     .row.justify-content-center
-      .col-lg-10.bg-code4
+      .col-lg-9.bg-code4
         .row
           .col-lg-12.text-white              
             p.mb-0.bloque-codigo // Clase abstracta

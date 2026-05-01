@@ -225,7 +225,7 @@
 
     .row.justify-content-center
       p La composición es una relación "todo-parte" fuerte. El objeto parte no puede existir sin el todo; su ciclo de vida está ligado al del objeto contenedor. En Java se implementa creando los objetos parte directamente dentro del constructor o los métodos del todo. Representada de esta manera:
-      .col-lg-10.bg-code4
+      .col-lg-9.bg-code4
         .row
           .col-lg-12.text-white 
             p.mb-0.bloque-codigo constructor o los métodos del todo. Representada de esta manera:
