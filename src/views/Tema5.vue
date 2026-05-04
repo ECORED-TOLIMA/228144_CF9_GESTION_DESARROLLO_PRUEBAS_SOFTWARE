@@ -233,7 +233,7 @@
                     .row.justify-content-center 
                       AcordionA(tipo="b" clase-tarjeta="tarjeta bg-02").color-primario
                         //-1ra pestaña
-                        .row(titulo="Depuración - Debugging")
+                        .row(titulo="Depuración - <i>Debugging</i>")
                           p La depuración consiste en identificar y corregir errores (bugs) en el código. Los IDEs Java como IntelliJ IDEA y Eclipse ofrecen depuradores integrados que permiten ejecutar el programa paso a paso, establecer puntos de interrupción (#[i breakpoints]), inspeccionar el valor de las variables en tiempo de ejecución y evaluar expresiones. Los tipos de errores más comunes son los errores de sintaxis (detectados por el compilador), los errores de lógica (el programa compila, pero produce resultados incorrectos) y los errores de ejecución (el programa lanza una excepción en tiempo de ejecución).
 
                         //-2da pestaña  

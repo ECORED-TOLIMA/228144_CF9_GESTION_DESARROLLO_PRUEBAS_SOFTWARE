@@ -33,7 +33,7 @@
                 img(src='@/assets/curso/tema1/2.png', alt='', style='width: 100px').m-auto
             p.text-center.mb-0 
               b Paradigma
-            p.text-center Enfoque conceptual que define la forma de estructurar y organizar el código de un sistema de software.
+            p.text-center Enfoque conceptual que define la forma de estructurar y organizar el código de un sistema de #[i software].
           
           //-Segundo Slyder--------------------------------------------------
           .tarjeta.bg-08.p-4
@@ -93,7 +93,7 @@
     #t_1_1.titulo-segundo.color-acento-contenido
       h2 1.1 Concepto de programación orientada a objetos
 
-    p A continuación, se presenta una línea de tiempo que permite comprender la evolución de la programación orientada a objetos, desde sus orígenes hasta su consolidación como paradigma central del desarrollo de software:
+    p A continuación, se presenta una línea de tiempo que permite comprender la evolución de la programación orientada a objetos, desde sus orígenes hasta su consolidación como paradigma central del desarrollo de #[i software]:
 
     .row.justify-content-center 
       .tarjeta.tarjeta--gris.p-4.bg-05
@@ -363,7 +363,7 @@
           .col-lg-12
             .titulo-sexto.color-acento-contenido.mb-3.mt-4
               h5 Tabla 2.
-              span Comparativo entre paradigmas de programación.
+              span Tipos de atributos y métodos en Java.
 
             .tabla-a.color-acento-contenido
               table
@@ -600,7 +600,7 @@
             p.mb-0.bloque-codigo formas.add(new Rectangulo(4.0, 6.0));
             p.mb-0.bloque-codigo for (Forma f : formas) f.mostrarDatos();
 
-    p.mt-4 Para finalizar, los principios SOLID, formulados por Martin (2008), constituyen un conjunto de cinco directrices del diseño orientado a objetos que guían la construcción de software mantenible, escalable y bien estructurado. Su aplicación es especialmente relevante en proyectos Java de mediana y gran escala, y se describen a continuación:
+    p.mt-4 Para finalizar, los principios SOLID, formulados por Martin (2008), constituyen un conjunto de cinco directrices del diseño orientado a objetos que guían la construcción de #[i software] mantenible, escalable y bien estructurado. Su aplicación es especialmente relevante en proyectos Java de mediana y gran escala, y se describen a continuación:
 
 
     .row.justify-content-center.mt-4

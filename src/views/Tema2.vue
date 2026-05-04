@@ -10,7 +10,7 @@
     figure
       img(src='@/assets/curso/tema2/1.png', alt='', style="width: 1226px").m-auto
     
-    p.mt-4 El modelado de sistemas es una etapa fundamental en el ciclo de vida del desarrollo de software. Antes de escribir código, es necesario diseñar y documentar la estructura del sistema para detectar problemas de diseño, comunicar la arquitectura al equipo y servir de guía durante la implementación. El Lenguaje de Modelado Unificado (UML) es el estándar internacional más utilizado para este propósito.
+    p.mt-4 El modelado de sistemas es una etapa fundamental en el ciclo de vida del desarrollo de #[i software]. Antes de escribir código, es necesario diseñar y documentar la estructura del sistema para detectar problemas de diseño, comunicar la arquitectura al equipo y servir de guía durante la implementación. El Lenguaje de Modelado Unificado (UML) es el estándar internacional más utilizado para este propósito.
 
     separador
     #t_2_1.titulo-segundo.color-acento-contenido
@@ -69,7 +69,7 @@
                 .cajon.color1.p-4
                   p El diagrama de clases es el diagrama estructural más importante en UML para el diseño orientado a objetos. Representa gráficamente las clases que conforman un sistema, sus atributos, métodos y las relaciones entre ellas. Es el punto de partida para la implementación en código y el artefacto de diseño más utilizado en proyectos Java.
 
-                p.mt-4 LCada clase se representa mediante un rectángulo dividido en tres secciones: el nombre de la clase (en la sección superior), los atributos con su tipo (en la sección central) y los métodos con sus parámetros y tipo de retorno (en la sección inferior). La notación de visibilidad se indica mediante los siguientes símbolos:
+                p.mt-4 Cada clase se representa mediante un rectángulo dividido en tres secciones: el nombre de la clase (en la sección superior), los atributos con su tipo (en la sección central) y los métodos con sus parámetros y tipo de retorno (en la sección inferior). La notación de visibilidad se indica mediante los siguientes símbolos:
 
               .col-lg-auto.pe-lg-0.mb-4.mb-xl-0.d-flex.d-none.d-lg-block
                 figure.m-0.p-0.w-100.h-100.d-flex
@@ -131,7 +131,7 @@
             figure(data-aos="fade-down")
               img(src='@/assets/curso/tema2/8.svg', style='width: 120px').m-auto          
           .col
-            p En el diagrama se puede notar que los atributos: codigo, nombre y promedio están marcados con el símbolo - (privado), lo que indica que solo pueden ser accedidos desde dentro de la clase. Los métodos públicos (marcados con +) constituyen la interfaz de la clase accesible desde el exterior.
+            p En el diagrama se puede notar que los atributos: código, nombre y promedio están marcados con el símbolo - (privado), lo que indica que solo pueden ser accedidos desde dentro de la clase. Los métodos públicos (marcados con +) constituyen la interfaz de la clase accesible desde el exterior.
 
     separador
     #t_2_3.titulo-segundo.color-acento-contenido
@@ -199,8 +199,8 @@
             .row.d-flex.align-items-center(data-aos="fade-right")
 
               .col-lg
-                p La asociación es la relación más general entre dos clases. Indica que los objetos de una clase conocen o utilizan objetos de otra, sin que ninguna dependa existencialmente de la otra. En Java se implementa mediante un atributo que contiene una referencia a la otra clase. La multiplicidad (1..1, 0..*, 1..*) indica cuántos objetos participan en cada extremo de la relación. A continuación, su ejemplificación:
-                
+                p La agregación es una relación "todo-parte" débil. El objeto parte puede existir de forma independiente al objeto todo. Los objetos parte son creados externamente y pasados al todo mediante el constructor o setters. Si el todo se destruye, las partes no se destruyen necesariamente. Se puede representar de la siguiente manera:
+
                 .bg-code5.mt-4
                   .row
                     .col-lg-12.text-white               
@@ -228,7 +228,6 @@
       .col-lg-9.bg-code4
         .row
           .col-lg-12.text-white 
-            p.mb-0.bloque-codigo constructor o los métodos del todo. Representada de esta manera:
             p.mb-0.bloque-codigo public class Pedido {
             
             p.margin-text-left.bloque-codigo private String numero;
@@ -330,7 +329,7 @@
     #t_2_4.titulo-segundo.color-acento-contenido
       h2 2.4 Herramientas CASE para el diseño de diagramas de clases
 
-    p Las herramientas CASE (Computer-Aided Software Engineering) son aplicaciones de software que automatizan y asisten las tareas de análisis, diseño y documentación en el proceso de desarrollo de sistemas. En el contexto de Java y UML, estas herramientas permiten crear diagramas de clases de forma visual, generar código esqueleto Java a partir del diagrama (ingeniería directa) y crear diagramas UML a partir de código Java existente (ingeniería inversa).
+    p Las herramientas CASE (Computer-Aided Software Engineering) son aplicaciones de #[i software] que automatizan y asisten las tareas de análisis, diseño y documentación en el proceso de desarrollo de sistemas. En el contexto de Java y UML, estas herramientas permiten crear diagramas de clases de forma visual, generar código esqueleto Java a partir del diagrama (ingeniería directa) y crear diagramas UML a partir de código Java existente (ingeniería inversa).
 
     p Las herramientas CASE más utilizadas en proyectos Java son:
 
@@ -350,7 +349,7 @@
             p Herramienta colaborativa en línea que permite crear diagramas UML en tiempo real con múltiples usuarios simultáneos. Ideal para equipos de desarrollo ágiles y distribuidos.
 
           .row(numero="5" titulo="Draw.io (diagrams.net)")
-            p Aplicación web gratuita con soporte UML, integrada en Google Drive, Confluence y GitHub. Es muy utilizada en equipos que trabajan en la nube.
+            p Aplicación #[i web] gratuita con soporte UML, integrada en Google Drive, Confluence y GitHub. Es muy utilizada en equipos que trabajan en la nube.
       .col-lg-4.d-none.d-lg-block
         figure(data-aos="fade-up")
           img(src='@/assets/curso/tema2/17.png', alt='', style="width: 100%").m-auto

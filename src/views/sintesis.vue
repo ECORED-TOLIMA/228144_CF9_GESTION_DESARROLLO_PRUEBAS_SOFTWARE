@@ -11,7 +11,7 @@
     .row.justify-content-center
       .col-lg-10.mb-5.bgs.p-4.brad
         figure
-          img(src="@/assets/curso/sintesis.svg", 
+          img(src="@/assets/curso/sintesis.png", 
           alt="En la síntesis se presenta un mapa conceptual que estructura de forma progresiva los fundamentos de la programación orientada a objetos, iniciando con los conceptos esenciales de clases, objetos, atributos y métodos, y su relación con los principios de herencia y polimorfismo. Se integra el modelado de sistemas mediante UML, destacando los diagramas de clases y las relaciones entre ellas como base para el diseño del software. Posteriormente, se abordan el encapsulamiento y el control de acceso, junto con la implementación práctica de la POO en Java mediante herencia, interfaces y polimorfismo. Finalmente, el mapa articula los procesos de validación, pruebas, depuración y buenas prácticas, culminando en un proyecto integrador que consolida el diseño orientado a objetos y propone extensiones del sistema, evidenciando la coherencia y aplicación práctica de los contenidos estudiados.")
       
       .col-auto

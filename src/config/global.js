@@ -261,82 +261,82 @@ export default {
   ],
   glosario: [
     {
-      termino: '<strong>Abstracción:</strong>',
+      termino: '<strong>Abstracción</strong>',
       significado:
         'proceso de identificar las características esenciales de un objeto, ignorando los detalles irrelevantes.',
     },
     {
-      termino: '<strong>Clase abstracta:</strong>',
+      termino: '<strong>Clase abstracta</strong>',
       significado:
         'clase que no puede instanciarse directamente; define métodos abstractos que sus subclases deben implementar.',
     },
     {
-      termino: '<strong>Clase:</strong>',
+      termino: '<strong>Clase</strong>',
       significado:
         'plantilla que define los atributos y métodos de los objetos creados a partir de ella.',
     },
     {
-      termino: '<strong>Diagrama de clases:</strong>',
+      termino: '<strong>Diagrama de clases</strong>',
       significado:
         'representación gráfica UML que muestra las clases, atributos, métodos y relaciones de un sistema.',
     },
     {
-      termino: '<strong>Encapsulamiento:</strong>',
+      termino: '<strong>Encapsulamiento</strong>',
       significado:
         'principio que oculta los datos internos de una clase y los expone solo mediante una interfaz pública controlada.',
     },
     {
-      termino: '<strong>Herencia:</strong>',
+      termino: '<strong>Herencia</strong>',
       significado:
         'mecanismo por el cual una subclase adquiere atributos y métodos de una superclase mediante la palabra clave extends.',
     },
     {
-      termino: '<strong>Herramienta CASE:</strong>',
+      termino: '<strong>Herramienta CASE</strong>',
       significado:
         'aplicación que automatiza tareas de análisis, diseño y documentación en el proceso de desarrollo de <em>software</em>.',
     },
     {
-      termino: '<strong>Instancia:</strong>',
+      termino: '<strong>Instancia</strong>',
       significado:
         'objeto concreto creado con new a partir de una clase; tiene su propio estado en memoria.',
     },
     {
-      termino: '<strong>Interfaz (interface):</strong>',
+      termino: '<strong>Interfaz (interface)</strong>',
       significado:
         'contrato de comportamiento en Java que las clases implementan con la palabra clave implements.',
     },
     {
-      termino: '<strong>JUnit:</strong>',
+      termino: '<strong>JUnit</strong>',
       significado:
         'framework de pruebas unitarias estándar en el ecosistema Java; utiliza anotaciones como @Test y @Override.',
     },
     {
-      termino: '<strong>Modificador de acceso:</strong>',
+      termino: '<strong>Modificador de acceso</strong>',
       significado:
         'palabra reservada (public, private, protected) que controla la visibilidad de atributos y métodos.',
     },
     {
-      termino: '<strong>Objeto:</strong>',
+      termino: '<strong>Objeto</strong>',
       significado:
         'entidad con estado (atributos) y comportamiento (métodos) propios, creada como instancia de una clase.',
     },
     {
-      termino: '<strong>Patrón de diseño:</strong>',
+      termino: '<strong>Patrón de diseño</strong>',
       significado:
         'solución reutilizable y documentada a un problema recurrente en el diseño de <em>software</em> orientado a objetos.',
     },
     {
-      termino: '<strong>Polimorfismo:</strong>',
+      termino: '<strong>Polimorfismo</strong>',
       significado:
         'propiedad que permite que objetos distintos respondan diferente al mismo mensaje según su tipo real.',
     },
     {
-      termino: '<strong>UML:</strong>',
+      termino: '<strong>UML</strong>',
       significado:
         'Lenguaje de Modelado Unificado; estándar gráfico del OMG para visualizar y documentar sistemas de <em>software</em>.',
     },
     {
-      termino: '<strong>@Override:</strong>',
+      termino: '<strong>@Override</strong>',
       significado:
         'anotación Java que indica que un método sobreescribe al de la superclase; activa el polimorfismo dinámico.',
     },

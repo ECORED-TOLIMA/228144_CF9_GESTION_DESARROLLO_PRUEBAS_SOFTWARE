@@ -260,8 +260,8 @@
                       figure.m-0.p-0.w-100.h-100.d-flex
                         img(src='@/assets/curso/tema6/7.png', alt='', class="w-100 h-100 object-fit-cover", style="margin-left:-10px")
                     .col-lg
-                      p Por su parte, la clase Curso representa una entidad central del sistema y establece relaciones de composición y asociación, al vincular un docente responsable y una coleEste proyecto integrador demuestra la aplicación coherente de los conceptos del componente: clase abstracta Persona con encapsulamiento y método abstracto obtenerRol(); subclases Estudiante y Docente con herencia (extends y super), sobreescritura de métodos (@Override) y validaciones; clase Curso con asociación a Docente y composición con la lista de Estudiante; y un programa principal con polimorfismo dinámico y manejo de excepciones. El resultado es una aplicación Java estructurada, reutilizable y alineada con los principios SOLID documentados por Martin (2008).cción de estudiantes, incorporando además validaciones de negocio como el control de cupo y el cálculo del promedio general del curso.
-
+                      p Este proyecto integrador demuestra la aplicación coherente de los conceptos del componente: clase abstracta Persona con encapsulamiento y método abstracto obtenerRol(); subclases Estudiante y Docente con herencia (extends y super), sobreescritura de métodos (@Override) y validaciones; clase Curso con asociación a Docente y composición con la lista de Estudiante; y un programa principal con polimorfismo dinámico y manejo de excepciones. El resultado es una aplicación Java estructurada, reutilizable y alineada con los principios SOLID documentados por Martin (2008).
+                      
     separador
     #t_6_1.titulo-segundo.color-acento-contenido
       h2 6.1 Reflexión sobre el diseño orientado a objetos
