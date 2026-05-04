@@ -17,10 +17,10 @@ export default {
   },
   data: () => ({
     cuestionario: {
-      tema: 'Microcontroladores y sensores',
+      tema: 'Dominando la programación orientada a objetos en Java',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> Evaluar la comprensión y el uso adecuado de las herramientas básicas en la ventana <em>Board</em> del <em>software</em> EAGLE.',
+        '<b> Objetivo:</b> evaluar los conocimientos fundamentales sobre programación orientada a objetos en Java, abordando desde los conceptos de clases, objetos, herencia y polimorfismo hasta la implementación con encapsulamiento, manejo de excepciones, patrones de diseño y modelado UML. ',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO.',
