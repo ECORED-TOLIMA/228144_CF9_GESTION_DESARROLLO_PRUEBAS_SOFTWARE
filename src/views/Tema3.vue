@@ -8,7 +8,7 @@
       h1 Encapsulamiento y control de acceso en clases
 
     figure
-      img(src='@/assets/curso/tema3/1.png', alt='', style="width: 1226px").m-auto
+      img(src='@/assets/curso/tema3/1.png',  style="width: 1226px").m-auto
     
     p.mt-4 El encapsulamiento y el control de acceso son mecanismos fundamentales del paradigma orientado a objetos que garantizan la integridad, seguridad y correcta organización de los datos dentro de un sistema Java. Su adecuada implementación es uno de los factores que más influye en la calidad y mantenibilidad del software, como señala Bloch (2018) en su obra de referencia sobre las mejores prácticas de Java.
 
@@ -23,7 +23,7 @@
             .row.d-flex.align-items-center(data-aos="fade-right")
               .col-lg-auto.pe-lg-0.mb-4.mb-xl-0.d-flex.d-none.d-lg-block
                 figure.m-0.p-0.w-100.h-100.d-flex
-                  img(src='@/assets/curso/tema3/2.png', alt='', class="w-100 h-100 object-fit-cover", style="margin-left:-10px")
+                  img(src='@/assets/curso/tema3/2.png',  class="w-100 h-100 object-fit-cover", style="margin-left:-10px")
               .col-lg.mt-2
                 p El encapsulamiento consiste en ocultar los detalles internos de una clase y exponer únicamente lo necesario para interactuar con ella desde el exterior. Este mecanismo, también conocido como "ocultamiento de información" (#[i information hiding]), protege los datos de modificaciones no autorizadas y define una interfaz clara y controlada para el uso de los objetos.
                 .cajon.color1.p-4.mt-2
@@ -64,6 +64,8 @@
             p.margin-text-left.bloque-codigo }
             
             p.mt-0.bloque-codigo }
+
+    p.mt-4 Los beneficios del encapsulamiento en el desarrollo de aplicaciones Java son:
 
     .row.bg-05.mt-4
       .col-12
@@ -142,11 +144,11 @@
                           
                         //-2da pestaña  
                         .row(titulo="Private")
-                          p Los miembros declarados como private son los de tipo privados y solo son accesibles desde dentro de la propia clase. No pueden ser accedidos directamente desde subclases ni desde ningún código externo. Este nivel de acceso es el más restrictivo y se recomienda especialmente para los atributos de datos, ya que refuerza el principio de encapsulamiento, obligando a que la manipulación de la información se realice mediante métodos controlados.
+                          p Los miembros declarados como private son los de tipo privado y solo son accesibles desde dentro de la propia clase. No pueden ser accedidos directamente desde subclases ni desde ningún código externo. Este nivel de acceso es el más restrictivo y se recomienda especialmente para los atributos de datos, ya que refuerza el principio de encapsulamiento, obligando a que la manipulación de la información se realice mediante métodos controlados.
                           
                         //-3ra pestaña
                         .row(titulo="Protected")
-                          p Los miembros declarados como protected que hacen a alusión a los de nivel protegidos, son accesibles desde la propia clase, desde sus subclases (incluso si se encuentran en otros paquetes) y desde las clases del mismo paquete. Este nivel es especialmente útil en jerarquías de herencia, donde las subclases necesitan reutilizar o extender el comportamiento definido en la clase padre sin exponerlo completamente al resto del sistema.
+                          p los miembros declarados como protected, que hacen alusión a los de nivel protegido, son accesibles desde la propia clase, desde sus subclases (incluso si se encuentran en otros paquetes) y desde las clases del mismo paquete. Este nivel es especialmente útil en jerarquías de herencia, donde las subclases necesitan reutilizar o extender el comportamiento definido en la clase padre sin exponerlo completamente al resto del sistema.
                           
                         //-4ta pestaña
                         .row(titulo="Sin modificador (acceso de paquete)")
@@ -154,7 +156,7 @@
                           
               .col-lg-auto.pe-lg-0.mb-4.mb-xl-0.d-flex.d-none.d-lg-block
                 figure.m-0.p-0.w-100.h-100.d-flex
-                  img(src='@/assets/curso/tema3/8.png', alt='', class="w-100 h-100 object-fit-cover")
+                  img(src='@/assets/curso/tema3/8.png',  class="w-100 h-100 object-fit-cover")
 
 
     .row.justify-content-center
@@ -193,7 +195,7 @@
             | }
 
     .row.justify-content-center.mt-4
-      p.text-center De igual manera, la siguiente tabla resume el alcance de visibilidad de cada modificador de acceso en Java según el contexto desde donde se accede:
+      p De igual manera, la siguiente tabla resume el alcance de visibilidad de cada modificador de acceso en Java según el contexto desde donde se accede:
       
       .col-lg-10
         .row.align-items-center
@@ -212,25 +214,25 @@
                     th Código externo
                 tbody
                   tr(style="background-color: #F6F6F6")
-                    td.text-start public.
-                    td.text-start Sí.
-                    td.text-start Sí.
-                    td.text-start Sí.
+                    td.text-start public
+                    td.text-start Sí
+                    td.text-start Sí
+                    td.text-start Sí
                   tr
-                    td.text-start protected.
-                    td.text-start Sí.
-                    td.text-start Sí.
-                    td.text-start No (otro paquete).
+                    td.text-start protected
+                    td.text-start Sí
+                    td.text-start Sí
+                    td.text-start No (otro paquete)
                   tr(style="background-color: #F6F6F6")
-                    td.text-start (paquete).
-                    td.text-start Sí.
-                    td.text-start Solo mismo paquete.
-                    td.text-start No.
+                    td.text-start (paquete)
+                    td.text-start Sí
+                    td.text-start Solo mismo paquete
+                    td.text-start No
                   tr
-                    td.text-start private.
-                    td.text-start Sí.
-                    td.text-start No.
-                    td.text-start No.
+                    td.text-start private
+                    td.text-start Sí
+                    td.text-start No
+                    td.text-start No
 
     separador
     #t_3_3.titulo-segundo.color-acento-contenido
@@ -243,12 +245,12 @@
             .row.d-flex.align-items-center(data-aos="fade-right")
               .col-lg-auto.pe-lg-0.mb-4.mb-xl-0.d-flex.d-none.d-lg-block
                 figure.m-0.p-0.w-100.h-100.d-flex
-                  img(src='@/assets/curso/tema3/9.png', alt='', class="w-100 h-100 object-fit-cover", style="margin-left:-10px")
+                  img(src='@/assets/curso/tema3/9.png',  class="w-100 h-100 object-fit-cover", style="margin-left:-10px")
               .col-lg.mt-2           
                 .cajon.color2.p-4.mt-2
                   p El patrón de encapsulamiento completo, conocido en el ecosistema Java como el estándar JavaBeans, consiste en declarar todos los atributos de una clase como private e implementar métodos de acceso públicos (getters y setters) con lógica de validación. Este es el estándar de la industria Java adoptado por frameworks como Spring y JPA/Hibernate.
 
-                p.mt-4 Los getters (métodos de lectura) retornan el valor de un atributo privado. Por convención, su nombre comienza con get seguido del nombre del atributo con la primera letra en mayúscula (por ejemplo, getNombre(). Los setters (métodos de escritura) asignan un nuevo valor al atributo privado, incorporando las validaciones necesarias para garantizar que el estado del objeto siempre sea válido.
+                p.mt-4 Los getters (métodos de lectura) retornan el valor de un atributo privado. Por convención, su nombre comienza con get seguido del nombre del atributo con la primera letra en mayúscula (por ejemplo, getNombre()). Los setters (métodos de escritura) asignan un nuevo valor al atributo privado, incorporando las validaciones necesarias para garantizar que el estado del objeto siempre sea válido.
                 | A continuación, se da un claro ejemplo de estos métodos:
 
     .row.justify-content-center.mt-4
@@ -306,7 +308,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/tema3/10.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 Java permite definir clases dentro de otras clases. Estas se denominan nested classes conocidas como clases anidadas o inner classes que son entendidas como las clases internas. Son útiles para encapsular lógica auxiliar estrechamente relacionada con la clase externa, implementar patrones de diseño como Builder e Iterator, y organizar mejor el código cuando una clase pequeña es usada exclusivamente por otra.
+        p.mb-0 Java permite definir clases dentro de otras clases. Estas se denominan nested classes conocidas como clases anidadas o inner classes que son entendidas como las clases internas. Son útiles para encapsular lógica auxiliar estrechamente relacionada con la clase externa, implementar patrones de diseño como Builder e Iterator y organizar mejor el código cuando una clase pequeña es usada exclusivamente por otra.
 
     p.mt-4 Java soporta cuatro tipos de clases anidadas: las clases anidadas estáticas (escritas como static nested class), las clases internas no estáticas (escritas como inner class), las clases locales (definidas dentro de un método) y las clases anónimas (sin nombre, usadas para implementaciones puntuales). El siguiente ejemplo ilustra una clase anidada estática en el contexto del patrón Builder:
 

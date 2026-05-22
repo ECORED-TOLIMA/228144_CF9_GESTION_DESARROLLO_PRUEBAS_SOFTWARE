@@ -14,7 +14,7 @@
             .row.d-flex.align-items-center(data-aos="fade-right")
               .col-lg-auto.pe-lg-0.mb-4.mb-xl-0.d-flex.d-none.d-lg-block
                 figure.m-0.p-0.w-100.h-100.d-flex
-                  img(src='@/assets/curso/tema1/1.png', alt='', class="w-100 h-100 object-fit-cover", style="margin-left:-10px")
+                  img(src='@/assets/curso/tema1/1.png',  class="w-100 h-100 object-fit-cover", style="margin-left:-10px")
               .col-lg.mt-2
                 p La programación orientada a objetos (POO) es un paradigma de desarrollo de software que organiza el código en torno a objetos, entidades que agrupan estado (atributos) y comportamiento (métodos). Este enfoque, ampliamente documentado por Horstmann (2019), permite modelar los sistemas de forma similar a como se percibe el mundo real, facilitando el diseño, la construcción y el mantenimiento de soluciones complejas.
 
@@ -30,7 +30,7 @@
           .tarjeta.bg-08.p-4
             .row.justify-content-center.mb-3
               .col-8
-                img(src='@/assets/curso/tema1/2.png', alt='', style='width: 100px').m-auto
+                img(src='@/assets/curso/tema1/2.png',  style='width: 100px').m-auto
             p.text-center.mb-0 
               b Paradigma
             p.text-center Enfoque conceptual que define la forma de estructurar y organizar el código de un sistema de #[i software].
@@ -39,7 +39,7 @@
           .tarjeta.bg-08.p-4
             .row.justify-content-center.mb-3
               .col-8
-                img(src='@/assets/curso/tema1/3.png', alt='', style='width: 100px').m-auto
+                img(src='@/assets/curso/tema1/3.png',  style='width: 100px').m-auto
             p.text-center.mb-0 
               b Objeto
             p.text-center Entidad que representa un elemento del mundo real o conceptual, con estado (atributos) y comportamiento (métodos) propios.
@@ -48,7 +48,7 @@
           .tarjeta.bg-08.p-4
             .row.justify-content-center.mb-3
               .col-8
-                img(src='@/assets/curso/tema1/4.png', alt='', style='width: 100px').m-auto
+                img(src='@/assets/curso/tema1/4.png',  style='width: 100px').m-auto
             p.text-center.mb-0 
               b Clase
             p.text-center Plantilla o molde que define la estructura y el comportamiento de los objetos creados a partir de ella. No ocupa memoria por sí misma.
@@ -57,7 +57,7 @@
           .tarjeta.bg-08.p-4
             .row.justify-content-center.mb-3
               .col-8
-                img(src='@/assets/curso/tema1/5.png', alt='', style='width: 100px').m-auto
+                img(src='@/assets/curso/tema1/5.png',  style='width: 100px').m-auto
             p.text-center.mb-0 
               b Encapsulamiento
             p.text-center Mecanismo que oculta los detalles internos de un objeto y expone únicamente la interfaz necesaria para interactuar con él.
@@ -66,7 +66,7 @@
           .tarjeta.bg-08.p-4
             .row.justify-content-center.mb-3
               .col-8
-                img(src='@/assets/curso/tema1/6.png', alt='', style='width: 100px').m-auto
+                img(src='@/assets/curso/tema1/6.png',  style='width: 100px').m-auto
             p.text-center.mb-0 
               b Herencia
             p.text-center Capacidad de una clase de adquirir atributos y métodos de otra clase, favoreciendo la reutilización y la jerarquización del código.
@@ -75,7 +75,7 @@
           .tarjeta.bg-08.p-4
             .row.justify-content-center.mb-3
               .col-8
-                img(src='@/assets/curso/tema1/7.png', alt='', style='width: 100px').m-auto
+                img(src='@/assets/curso/tema1/7.png',  style='width: 100px').m-auto
             p.text-center.mb-0 
               b Polimorfismo
             p.text-center Propiedad que permite a objetos de distintas clases responder de manera diferente a un mismo mensaje o llamada de método.
@@ -84,7 +84,7 @@
           .tarjeta.bg-08.p-4
             .row.justify-content-center.mb-3
               .col-8
-                img(src='@/assets/curso/tema1/8.png', alt='', style='width: 100px').m-auto
+                img(src='@/assets/curso/tema1/8.png',  style='width: 100px').m-auto
             p.text-center.mb-0 
               b Abstracción
             p.text-center Proceso de identificar las características esenciales de un objeto, ignorando los detalles irrelevantes para el problema en cuestión.
@@ -102,7 +102,7 @@
           .row(titulo="1960")
             .col-md-6
               figure
-                img(src='@/assets/curso/tema1/9.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/tema1/9.png')
             .col-md-6.mb-4.mb-md-0
               p #[b Década de 1960 – Orígenes]
               p En el Instituto de Computación de Oslo, Ole-Johan Dahl y Kristen Nygaard desarrollan Simula, introduciendo los conceptos de clases, objetos y herencia para gestionar la complejidad del #[i software].
@@ -113,7 +113,7 @@
 
             .col-md-6
               figure
-                img(src='@/assets/curso/tema1/10.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/tema1/10.png')
             .col-md-6.mb-4.mb-md-0
               p #[b Década de 1970 – Consolidación]
               p En Xerox PARC, Alan Kay impulsa Smalltalk, que consolida la POO como un paradigma técnico y conceptual centrado en la interacción entre objetos.
@@ -123,7 +123,7 @@
 
             .col-md-6
               figure
-                img(src='@/assets/curso/tema1/11.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/tema1/11.png')
             .col-md-6.mb-4.mb-md-0
               p #[b Décadas de 1980 y 1990 – Expansión]
               p La programación orientada a objetos se difunde ampliamente en la academia y la industria, integrándose en nuevos lenguajes y metodologías de desarrollo.
@@ -133,7 +133,7 @@
 
             .col-md-6
               figure
-                img(src='@/assets/curso/tema1/12.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/tema1/12.png')
             .col-md-6.mb-4.mb-md-0
               p #[b 1995 – Popularización]
               p Sun Microsystems lanza Java, que fortalece la adopción de la POO gracias a la portabilidad ofrecida por la JVM y el principio Write Once, Run Anywhere.
@@ -143,7 +143,7 @@
 
             .col-md-6
               figure
-                img(src='@/assets/curso/tema1/13.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/tema1/13.png')
             .col-md-6.mb-4.mb-md-0
               p #[b Actualidad – Uso generalizado]
               p La POO se consolida como uno de los paradigmas más utilizados en el desarrollo de aplicaciones modernas, sistemas empresariales y #[i software] multiplataforma.
@@ -157,7 +157,7 @@
         .row.justify-content-center.mb-4
           .col-6
             figure
-              img(src='@/assets/curso/tema1/14.svg', alt='Texto que describa la imagen', style='width: 70px').m-auto
+              img(src='@/assets/curso/tema1/14.svg', style='width: 70px').m-auto
           
         h2.text-center Abstracción
         p.text-center Representar entidades del dominio mediante clases, destacando solo las propiedades relevantes para el sistema que se está construyendo y descartando los detalles superfluos.
@@ -167,7 +167,7 @@
         .row.justify-content-center.mb-4
           .col-6
             figure
-              img(src='@/assets/curso/tema1/15.svg', alt='Texto que describa la imagen', style='width: 70px').m-auto
+              img(src='@/assets/curso/tema1/15.svg', style='width: 70px').m-auto
           
         h2.text-center Encapsulamiento
         p.text-center Agrupar datos y métodos en una misma unidad (clase) y restringir el acceso directo a los datos internos, exponiendo únicamente una interfaz controlada.
@@ -177,7 +177,7 @@
         .row.justify-content-center.mb-4
           .col-6
             figure
-              img(src='@/assets/curso/tema1/16.svg', alt='Texto que describa la imagen', style='width: 70px').m-auto
+              img(src='@/assets/curso/tema1/16.svg', style='width: 70px').m-auto
           
         h2.text-center Herencia
         p.text-center Crear nuevas clases basadas en clases existentes, heredando su estructura y añadiendo o modificando comportamientos, lo que evita la duplicación de código.
@@ -187,7 +187,7 @@
         .row.justify-content-center.mb-4
           .col-6
             figure
-              img(src='@/assets/curso/tema1/17.svg', alt='Texto que describa la imagen', style='width: 70px').m-auto
+              img(src='@/assets/curso/tema1/17.svg', style='width: 70px').m-auto
           
         h2.text-center Polimorfismo
         p.text-center Un mismo nombre de método puede tener comportamientos distintos según el tipo concreto del objeto que lo invoque, determinado en tiempo de ejecución.
@@ -234,7 +234,7 @@
                   tr(style="background-color: #F6F6F6")
                     td.text-start Lenguajes representativos.
                     td.text-start C, Pascal, FORTRAN.
-                    td.text-start Java, Python, C#, Kotlin
+                    td.text-start Java, Python, C#, Kotlin.
                     td.text-start Haskell, Scala, F#.
 
     separador
@@ -248,7 +248,7 @@
             .row.d-flex.align-items-center(data-aos="fade-right")
               .col-lg-auto.pe-lg-0.mb-4.mb-xl-0.d-flex.d-none.d-lg-block
                 figure.m-0.p-0.w-100.h-100.d-flex
-                  img(src='@/assets/curso/tema1/18.svg', alt='', class="w-100 h-100 object-fit-cover", style="margin-left:-10px")
+                  img(src='@/assets/curso/tema1/18.svg',  class="w-100 h-100 object-fit-cover", style="margin-left:-10px")
               .col-lg.mt-2
                 .cajon.color1.p-4.mt-2
                   p En esta temática se abordan los conceptos de clases y objetos como base de la programación orientada a objetos. Comprender esta relación permite identificar cómo se modelan entidades del mundo real dentro de un programa y cómo estas interactúan entre sí a través de sus atributos y comportamientos. Estos conceptos son esenciales para estructurar correctamente el código y facilitar su reutilización y mantenimiento.
@@ -270,7 +270,7 @@
         .row.justify-content-center.mb-4
           .col-6
             figure
-              img(src='@/assets/curso/tema1/19.svg', alt='Texto que describa la imagen', style='width: 70px').m-auto
+              img(src='@/assets/curso/tema1/19.svg', style='width: 70px').m-auto
           
         h3.text-center Instancia
         p Objeto concreto creado en memoria mediante el operador new. Cada instancia tiene su propio estado independiente.
@@ -280,7 +280,7 @@
         .row.justify-content-center.mb-4
           .col-6
             figure
-              img(src='@/assets/curso/tema1/20.svg', alt='Texto que describa la imagen', style='width: 70px').m-auto
+              img(src='@/assets/curso/tema1/20.svg', style='width: 70px').m-auto
           
         h3.text-center Constructor
         p Método especial con el mismo nombre de la clase que se ejecuta automáticamente al crear un objeto, encargado de inicializar sus atributos.
@@ -290,7 +290,7 @@
         .row.justify-content-center.mb-4
           .col-6
             figure
-              img(src='@/assets/curso/tema1/21.svg', alt='Texto que describa la imagen', style='width: 70px').m-auto
+              img(src='@/assets/curso/tema1/21.svg', style='width: 70px').m-auto
           
         h3.text-center Referencia
         p En Java, los objetos se manejan mediante variables de referencia que apuntan a la ubicación en memoria heap del objeto.
@@ -300,7 +300,7 @@
         .row.justify-content-center.mb-4
           .col-6
             figure
-              img(src='@/assets/curso/tema1/22.svg', alt='Texto que describa la imagen', style='width: 70px').m-auto
+              img(src='@/assets/curso/tema1/22.svg', style='width: 70px').m-auto
           
         h3.text-center Recolector de basura
         p Mecanismo automático de Java que libera la memoria ocupada por objetos que ya no tienen referencias activas.
@@ -323,7 +323,7 @@
 
               .col-lg-auto.pe-lg-0.mb-4.mb-xl-0.d-flex.d-none.d-lg-block
                 figure.m-0.p-0.w-100.h-100.d-flex
-                  img(src='@/assets/curso/tema1/23.png', alt='', class="w-100 h-100 object-fit-cover", style="margin-left:-10px")
+                  img(src='@/assets/curso/tema1/23.png',  class="w-100 h-100 object-fit-cover", style="margin-left:-10px")
 
       p.mt-4 Los métodos son funciones o procedimientos definidos dentro de la clase que describen el comportamiento de los objetos. Pueden acceder y modificar los atributos del objeto, recibir parámetros y retornar valores. El siguiente ejemplo ilustra la definición de una clase con ambos componentes:
 
@@ -414,14 +414,14 @@
             .row.d-flex.align-items-center(data-aos="fade-right")
               .col-lg-auto.pe-lg-0.mb-4.mb-xl-0.d-flex.d-none.d-lg-block
                 figure.m-0.p-0.w-100.h-100.d-flex
-                  img(src='@/assets/curso/tema1/24.png', alt='', class="w-100 h-100 object-fit-cover", style="margin-left:-10px")
+                  img(src='@/assets/curso/tema1/24.png',  class="w-100 h-100 object-fit-cover", style="margin-left:-10px")
               .col-lg.mt-2
                 p La herencia y el polimorfismo son dos de los cuatro pilares fundamentales del paradigma orientado a objetos y constituyen los mecanismos que aportan mayor flexibilidad y capacidad de extensión al diseño de sistemas.
 
                 .cajon.color1.p-4.mt-2
                   p La herencia permite que una subclase (o clase derivada) adquiera los atributos y métodos de una superclase (o clase base). En Java, la herencia se declara con la palabra clave extends. Una subclase puede añadir nuevos atributos y métodos, o redefinir los métodos heredados para adaptar su comportamiento. Java solo permite herencia simple entre clases (una clase solo puede extender una clase), lo que evita las ambigüedades propias de la herencia múltiple.
 
-                p.mt-3 Basado en lo anterior, se presente un ejemplo del uso de la herencia y el polimorfismo, evidenciando cómo una subclase hereda y redefine métodos de una superclase:
+                p.mt-3 Basado en lo anterior, se presenta un ejemplo del uso de la herencia y el polimorfismo, evidenciando cómo una subclase hereda y redefine métodos de una superclase:
 
       .row.justify-content-center.mt-4
         .col-lg-9.bg-code2
@@ -467,7 +467,7 @@
                   img(src='@/assets/curso/tema1/25.svg', style='width: 120px').m-auto
               
               .col
-                p El polimorfismo permite que una referencia de la superclase apunte a un objeto de cualquiera de sus subclases. En tiempo de ejecución, Java determina automáticamente qué versión del método invocar según el tipo real del objeto, gracias al mecanismo de enlace dinámico. La anotación @Override indica explícitamente que un método sobreescribe uno de la superclase y Java verificará en tiempo de compilación que la firma sea correcta.       
+                p El polimorfismo permite que una referencia de la superclase apunte a un objeto de cualquiera de sus subclases. En tiempo de ejecución, Java determina automáticamente qué versión del método invocar según el tipo real del objeto, gracias al mecanismo de enlace dinámico. La anotación @Override indica explícitamente que un método sobrescribe uno de la superclase y Java verificará en tiempo de compilación que la firma sea correcta.       
 
     separador
     #t_1_5.titulo-segundo.color-acento-contenido
@@ -563,7 +563,7 @@
               .row.d-flex.align-items-center(data-aos="fade-right")
                 .col-lg-5.pe-lg-0.mb-4.mb-xl-0.d-flex.d-none.d-lg-block
                   figure.m-0.p-0.w-100.h-100.d-flex
-                    img(src='@/assets/curso/tema1/29.png', alt='', class="w-100 h-100 object-fit-cover", style="margin-left:-10px")
+                    img(src='@/assets/curso/tema1/29.png',  class="w-100 h-100 object-fit-cover", style="margin-left:-10px")
                 .col-lg
                   p No puede instanciarse directamente; su propósito es definir una estructura común y un contrato para las subclases que la extienden.
                   p Por su parte, una interfaz (interface) es un contrato de comportamiento más estricto: todos sus métodos son implícitamente abstractos (antes de Java 8) y públicos. Una clase puede implementar múltiples interfaces con la palabra clave implements, lo que simula la herencia múltiple de comportamiento sin las ambigüedades asociadas. Igualmente, se ejemplifica el uso de una clase abstracta, combinando métodos abstractos y concretos, y evidencia el polimorfismo al tratar distintas formas mediante una referencia común:
@@ -600,20 +600,20 @@
             p.mb-0.bloque-codigo formas.add(new Rectangulo(4.0, 6.0));
             p.mb-0.bloque-codigo for (Forma f : formas) f.mostrarDatos();
 
-    p.mt-4 Para finalizar, los principios SOLID, formulados por Martin (2008), constituyen un conjunto de cinco directrices del diseño orientado a objetos que guían la construcción de #[i software] mantenible, escalable y bien estructurado. Su aplicación es especialmente relevante en proyectos Java de mediana y gran escala, y se describen a continuación:
+    p.mt-4 Para finalizar, los principios SOLID, formulados por Martin (2008), constituyen un conjunto de cinco directrices del diseño orientado a objetos que guían la construcción de #[i software] mantenible, escalable y bien estructurado. Su aplicación es especialmente relevante en proyectos Java de mediana y gran escala, y se describe a continuación:
 
 
     .row.justify-content-center.mt-4
       .col-lg-4.d-none.d-lg-block
         figure(data-aos="fade-up")
-          img(src='@/assets/curso/tema1/30.png', alt='', style="width: 100%").m-auto
+          img(src='@/assets/curso/tema1/30.png',  style="width: 100%").m-auto
       .col-lg-8
         LineaTiempoD.color-primario.linea-bold
           .row(numero="S" titulo="Responsabilidad Única (SRP)")
             p Cada clase debe tener una única razón para cambiar; es decir, debe encargarse de una sola responsabilidad bien definida.
     
           .row(numero="O" titulo="Abierto/Cerrado (OCP)")
-            p Las clases deben estar abiertas para la extensión (se puede añadir comportamiento nuevo) pero cerradas para la modificación (sin alterar el código existente).
+            p Las clases deben estar abiertas para la extensión (se puede añadir comportamiento nuevo), pero cerradas para la modificación (sin alterar el código existente).
     
           .row(numero="L" titulo="Sustitución de Liskov (LSP)")
             p Los objetos de una subclase deben poder sustituir a los de la superclase sin alterar el correcto funcionamiento del programa.

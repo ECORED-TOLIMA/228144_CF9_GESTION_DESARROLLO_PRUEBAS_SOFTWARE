@@ -123,7 +123,7 @@ export default {
         {
           id: 4,
           texto:
-            '¿Qué anotación se usa en Java para indicar que un método sobreescribe al de la superclase y activar el polimorfismo dinámico?',
+            '¿Qué anotación se usa en Java para indicar que un método sobrescribe al de la superclase y activar el polimorfismo dinámico?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [

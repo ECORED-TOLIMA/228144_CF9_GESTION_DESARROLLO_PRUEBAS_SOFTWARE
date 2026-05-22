@@ -8,7 +8,7 @@
       h1 Implementación de la programación orientada a objetos en Java
 
     figure
-      img(src='@/assets/curso/tema4/1.png', alt='', style="width: 1226px").m-auto
+      img(src='@/assets/curso/tema4/1.png',  style="width: 1226px").m-auto
     
     .row.align-items-start.mt-4
       .col-lg-1.mb-lg-0.mb-4
@@ -25,7 +25,7 @@
     .row.align-items-center
       .col-lg-4.d-none.d-lg-block
         figure
-          img(src='@/assets/curso/tema4/3.png', alt='', style="width: 390px").m-auto
+          img(src='@/assets/curso/tema4/3.png',  style="width: 390px").m-auto
       .col-lg-8.bg-4.p-4
     
         figure
@@ -110,7 +110,7 @@
               
               .col-lg-auto.pe-lg-0.mb-4.mb-xl-0.d-flex.d-none.d-lg-block
                 figure.m-0.p-0.w-100.h-100.d-flex
-                  img(src='@/assets/curso/tema4/5.png', alt='', class="w-100 h-100 object-fit-cover", style="margin-left:-10px")
+                  img(src='@/assets/curso/tema4/5.png',  class="w-100 h-100 object-fit-cover", style="margin-left:-10px")
 
     .row.justify-content-center.mt-4
       .col-lg-9
@@ -171,7 +171,7 @@
             .row.d-flex.align-items-center(data-aos="fade-right")
               .col-lg-auto.pe-lg-0.mb-4.mb-xl-0.d-flex.d-none.d-lg-block
                 figure.m-0.p-0.w-100.h-100.d-flex
-                  img(src='@/assets/curso/tema4/6.png', alt='', class="w-100 h-100 object-fit-cover", style="margin-left:-10px")
+                  img(src='@/assets/curso/tema4/6.png',  class="w-100 h-100 object-fit-cover", style="margin-left:-10px")
               .col-lg
                 p La reutilización de código es uno de los objetivos principales de la POO y una de sus mayores ventajas frente a la programación estructurada. En Java, la reutilización se logra principalmente mediante la herencia (extends), la composición (atributos que referencian otros objetos) y las interfaces (implements).
 
@@ -182,7 +182,7 @@
       //-Tarjeta 1
       .col-10.col-md-6.col-lg-4.mb-4.mb-md-0(data-aos="fade-right")
         .tarjeta-avatar
-          img(src='@/assets/curso/tema4/7.svg' alt='AvatarTop').m-auto
+          img(src='@/assets/curso/tema4/7.svg' ).m-auto
           .tarjeta.bg-4.shadow
             .p-4
               .row.justify-content-center.mb-3
@@ -194,7 +194,7 @@
       //-Tarjeta 2
       .col-10.col-md-6.col-lg-4.mb-4.mb-md-0(data-aos="fade-right")
         .tarjeta-avatar
-          img(src='@/assets/curso/tema4/8.svg' alt='AvatarTop').m-auto
+          img(src='@/assets/curso/tema4/8.svg' ).m-auto
           .tarjeta.bg-4.shadow
             .p-4
               .row.justify-content-center.mb-3
@@ -206,7 +206,7 @@
       //-Tarjeta 3
       .col-10.col-md-6.col-lg-4.mb-4.mb-md-0(data-aos="fade-right")
         .tarjeta-avatar
-          img(src='@/assets/curso/tema4/9.svg' alt='AvatarTop').m-auto
+          img(src='@/assets/curso/tema4/9.svg' ).m-auto
           .tarjeta.bg-4.shadow
             .p-4
               .row.justify-content-center.mb-3
@@ -306,9 +306,9 @@
                     th Polimorfismo dinámico (@Override)
                 tbody
                   tr(style="background-color: #F6F6F6")
-                    td.text-start Momento de resolución.
-                    td.text-start Tiempo de compilación.
-                    td.text-start Tiempo de ejecución.
+                    td.text-start Momento de resolución
+                    td.text-start Tiempo de compilación
+                    td.text-start Tiempo de ejecución
                   tr
                     td.text-start Mecanismo Java
                     td.text-start Mismo nombre, distintos parámetros

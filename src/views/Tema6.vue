@@ -8,7 +8,7 @@
       h1 Proyecto integrador: sistema de registro académico
 
     figure
-      img(src='@/assets/curso/tema6/1.png', alt='', style="width: 1226px").m-auto
+      img(src='@/assets/curso/tema6/1.png',  style="width: 1226px").m-auto
     
     p.mt-4 El proyecto integrador consolida todos los conceptos estudiados en el componente formativo, mediante el desarrollo de un sistema de registro académico completo en Java. Este sistema aplica simultáneamente los principios de diseño orientado a objetos: clases abstractas, herencia, polimorfismo, encapsulamiento, validación de datos y manejo de excepciones. El modelo de clases del sistema corresponde al diagrama UML presentado en la sección 2.5.
 
@@ -103,7 +103,7 @@
             .row.d-flex.align-items-center(data-aos="fade-right")
               .col-lg-auto.pe-lg-0.mb-4.mb-xl-0.d-flex.d-none.d-lg-block
                 figure.m-0.p-0.w-100.h-100.d-flex
-                  img(src='@/assets/curso/tema6/3.png', alt='', class="w-100 h-100 object-fit-cover", style="margin-left:-10px")
+                  img(src='@/assets/curso/tema6/3.png',  class="w-100 h-100 object-fit-cover", style="margin-left:-10px")
 
               .col-lg.mt-2           
                 p La clase Docente hereda de Persona y define atributos propios como la especialidad y la titulación, reforzando el uso de herencia y polimorfismo mediante la sobreescritura del método obtenerRol().
@@ -181,7 +181,7 @@
             .row.d-flex.align-items-center(data-aos="fade-right")
               .col-lg-auto.pe-lg-0.mb-4.mb-xl-0.d-flex.d-none.d-lg-block
                 figure.m-0.p-0.w-100.h-100.d-flex
-                  img(src='@/assets/curso/tema6/4.png', alt='', class="w-100 h-100 object-fit-cover")
+                  img(src='@/assets/curso/tema6/4.png',  class="w-100 h-100 object-fit-cover")
               .col-lg.p-4
                 .row.align-items-start.bg-4.p-3
                   .col-lg-2.mb-lg-0.d-flex.d-none.d-lg-block
@@ -210,7 +210,7 @@
             p.margin-text-2.bloque-codigo // Crear docente
             p.margin-text-2.bloque-codigo Docente docente = new Docente(
             p.margin-text-3.bloque-codigo "Dr. Carlos Mendoza", "DOC001",
-            p.margin-text-3.bloque-codigo "Ingeniería de Software", "PhD"
+            p.margin-text-3.bloque-codigo "Ingeniería de <em>Software</em>", "PhD"
             p.margin-text-2 );
 
             p.margin-text-2.bloque-codigo // Crear curso
@@ -258,7 +258,7 @@
                   .row.d-flex.align-items-center(data-aos="fade-right")
                     .col-lg-auto.pe-lg-0.mb-4.mb-xl-0.d-flex.d-none.d-lg-block
                       figure.m-0.p-0.w-100.h-100.d-flex
-                        img(src='@/assets/curso/tema6/7.png', alt='', class="w-100 h-100 object-fit-cover", style="margin-left:-10px")
+                        img(src='@/assets/curso/tema6/7.png',  class="w-100 h-100 object-fit-cover", style="margin-left:-10px")
                     .col-lg
                       p Este proyecto integrador demuestra la aplicación coherente de los conceptos del componente: clase abstracta Persona con encapsulamiento y método abstracto obtenerRol(); subclases Estudiante y Docente con herencia (extends y super), sobreescritura de métodos (@Override) y validaciones; clase Curso con asociación a Docente y composición con la lista de Estudiante; y un programa principal con polimorfismo dinámico y manejo de excepciones. El resultado es una aplicación Java estructurada, reutilizable y alineada con los principios SOLID documentados por Martin (2008).
                       
@@ -273,7 +273,7 @@
             .row.d-flex.align-items-center.bg-4(data-aos="fade-right")
               .col-lg-auto.pe-lg-0.mb-4.mb-xl-0.d-flex.d-none.d-lg-block
                 figure.m-0.p-0.w-100.h-100.d-flex
-                  img(src='@/assets/curso/tema6/8.svg', alt='', class="w-100 h-100 object-fit-cover", style="margin-left:-10px")
+                  img(src='@/assets/curso/tema6/8.svg',  class="w-100 h-100 object-fit-cover", style="margin-left:-10px")
               .col-lg
                 p El desarrollo del proyecto integrador permite evidenciar de forma práctica cómo los conceptos teóricos del paradigma orientado a objetos se traducen en decisiones concretas de diseño e implementación en Java. Cada decisión tomada durante el diseño tiene implicaciones directas sobre la calidad, extensibilidad y mantenibilidad del sistema resultante.
 
@@ -293,7 +293,7 @@
             .row.d-flex.align-items-center(data-aos="fade-right")
               .col-lg-auto.pe-lg-0.mb-4.mb-xl-0.d-flex.d-none.d-lg-block
                 figure.m-0.p-0.w-100.h-100.d-flex
-                  img(src='@/assets/curso/tema6/10.png', alt='', class="w-100 h-100 object-fit-cover", style="margin-left:-10px")
+                  img(src='@/assets/curso/tema6/10.png',  class="w-100 h-100 object-fit-cover", style="margin-left:-10px")
               .col-lg
                 p El uso de polimorfismo en la lista List&lt;Persona&gt; demuestra uno de los beneficios más poderosos del paradigma: el código cliente puede tratar objetos de distintos tipos (Estudiante, Docente) de manera uniforme a través de la referencia de la superclase, sin necesidad de conocer el tipo concreto en tiempo de compilación. Esto hace que el código sea extensible: si se añade una nueva clase Administrativo que extienda Persona, el código existente no necesita modificarse.
                 .cajon.color1.p-4
@@ -312,7 +312,7 @@
           .tarjeta.bg-08.p-4
             .row.justify-content-center.mb-3
               .col-8
-                img(src='@/assets/curso/tema6/11.svg', alt='', style='width: 100px').m-auto
+                img(src='@/assets/curso/tema6/11.svg',  style='width: 100px').m-auto
             p.text-center.mb-0 
               b Agregar la clase Nota
             p.text-center Modelar las notas como objetos asociados a la relación entre Estudiante y Curso, creando una clase Matricula que contenga la lista de notas y calcule el promedio automáticamente.
@@ -321,7 +321,7 @@
           .tarjeta.bg-08.p-4
             .row.justify-content-center.mb-3
               .col-8
-                img(src='@/assets/curso/tema6/12.svg', alt='', style='width: 100px').m-auto
+                img(src='@/assets/curso/tema6/12.svg',  style='width: 100px').m-auto
             p.text-center.mb-0 
               b Implementar una interfaz Exportable
             p.text-center Definir una interfaz con el método exportarCSV() que implementen tanto Curso como Estudiante, permitiendo exportar datos en formato de texto plano.
@@ -330,7 +330,7 @@
           .tarjeta.bg-08.p-4
             .row.justify-content-center.mb-3
               .col-8
-                img(src='@/assets/curso/tema6/13.svg', alt='', style='width: 100px').m-auto
+                img(src='@/assets/curso/tema6/13.svg',  style='width: 100px').m-auto
             p.text-center.mb-0 
               b Aplicar el patrón Observer 
             p.text-center Notificar automáticamente al Docente y a la administración cuando un Estudiante alcanza un promedio de riesgo académico (inferior a 3.0).
@@ -339,7 +339,7 @@
           .tarjeta.bg-08.p-4
             .row.justify-content-center.mb-3
               .col-8
-                img(src='@/assets/curso/tema6/14.svg', alt='', style='width: 100px').m-auto
+                img(src='@/assets/curso/tema6/14.svg',  style='width: 100px').m-auto
             p.text-center.mb-0 
               b Persistencia de datos
             p.text-center Integrar la serialización de objetos Java (Serializable) o una base de datos SQLite con JDBC para persistir el estado del sistema entre ejecuciones.
@@ -348,7 +348,7 @@
           .tarjeta.bg-08.p-4
             .row.justify-content-center.mb-3
               .col-8
-                img(src='@/assets/curso/tema6/15.svg', alt='', style='width: 100px').m-auto
+                img(src='@/assets/curso/tema6/15.svg',  style='width: 100px').m-auto
             p.text-center.mb-0 
               b Interfaz gráfica con JavaFX
             p.text-center Construir una interfaz gráfica de usuario que permita gestionar el sistema académico de forma visual, aplicando el patrón MVC (Modelo-Vista-Controlador).
@@ -358,7 +358,7 @@
             .row.align-items-center
               .col-lg-12
                 .cajon.color2.p-4
-                  p Cada una de estas extensiones aplica uno o más de los conceptos estudiados en el componente y puede ser asignada como actividad de profundización. Su implementación incremental sobre el proyecto integrador base garantiza la coherencia del diseño y permite al aprendiz evidenciar concretamente el valor del paradigma orientado a objetos en el desarrollo de software de calidad.
+                  p Cada una de estas extensiones aplica uno o más de los conceptos estudiados en el componente y puede ser asignada como actividad de profundización. Su implementación incremental sobre el proyecto integrador base garantiza la coherencia del diseño y permite al aprendiz evidenciar concretamente el valor del paradigma orientado a objetos en el desarrollo de <em>software</em> de calidad.
 </template>
 
 <script>

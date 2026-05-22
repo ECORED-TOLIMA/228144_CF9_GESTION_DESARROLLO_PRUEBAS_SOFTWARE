@@ -8,7 +8,7 @@
       h1 Validación y ajustes del programa
 
     figure
-      img(src='@/assets/curso/tema5/1.png', alt='', style="width: 1226px").m-auto
+      img(src='@/assets/curso/tema5/1.png',  style="width: 1226px").m-auto
     
     p.mt-4 La validación y los ajustes del programa son etapas fundamentales del ciclo de vida del #[i software] que garantizan que la aplicación funcione correctamente, procese datos válidos y brinde una experiencia adecuada al usuario. Un programa sin controles de validación es susceptible a errores, datos inconsistentes y comportamientos inesperados que pueden afectar negativamente la experiencia del usuario y la integridad del sistema.
 
@@ -23,7 +23,7 @@
             .row.d-flex.align-items-center.bg-4(data-aos="fade-right")
               .col-lg-auto.pe-lg-0.mb-4.mb-xl-0.d-flex.d-none.d-lg-block
                 figure.m-0.p-0.w-100.h-100.d-flex
-                  img(src='@/assets/curso/tema5/2.svg', alt='', class="w-100 h-100 object-fit-cover", style="margin-left:-10px")
+                  img(src='@/assets/curso/tema5/2.svg',  class="w-100 h-100 object-fit-cover", style="margin-left:-10px")
               .col-lg
                 p Los controles de validación son mecanismos implementados en el código que verifican si los datos ingresados o procesados por el programa cumplen con los requisitos definidos antes de continuar con la ejecución. En Java, los controles de validación se implementan principalmente en los métodos setter, los constructores y los métodos de negocio mediante bloques condicionales y el lanzamiento de excepciones.
 
@@ -35,7 +35,7 @@
           .tarjeta.bg-08.p-4
             .row.justify-content-center.mb-3
               .col-8
-                img(src='@/assets/curso/tema5/3.svg', alt='', style='width: 100px').m-auto
+                img(src='@/assets/curso/tema5/3.svg',  style='width: 100px').m-auto
             p.text-center.mb-0 
               b Validación de tipo de dato
             p.text-center Verifica que el dato corresponda al tipo esperado por el sistema. Java es fuertemente tipado, por lo que muchas validaciones de tipo son detectadas en tiempo de compilación.
@@ -44,7 +44,7 @@
           .tarjeta.bg-08.p-4
             .row.justify-content-center.mb-3
               .col-8
-                img(src='@/assets/curso/tema5/4.svg', alt='', style='width: 100px').m-auto
+                img(src='@/assets/curso/tema5/4.svg',  style='width: 100px').m-auto
             p.text-center.mb-0 
               b Validación de rango
             p.text-center Asegura que el valor numérico o temporal se encuentre dentro de un intervalo permitido. Ejemplo: la edad debe estar entre 0 y 120 años.
@@ -53,7 +53,7 @@
           .tarjeta.bg-08.p-4
             .row.justify-content-center.mb-3
               .col-8
-                img(src='@/assets/curso/tema5/5.svg', alt='', style='width: 100px').m-auto
+                img(src='@/assets/curso/tema5/5.svg',  style='width: 100px').m-auto
             p.text-center.mb-0 
               b Validación de formato
             p.text-center Comprueba que el dato cumpla con un patrón estructural específico. En Java se usan expresiones regulares (clase Pattern) para validar formatos como correos electrónicos, números de teléfono o códigos.
@@ -62,7 +62,7 @@
           .tarjeta.bg-08.p-4
             .row.justify-content-center.mb-3
               .col-8
-                img(src='@/assets/curso/tema5/6.svg', alt='', style='width: 100px').m-auto
+                img(src='@/assets/curso/tema5/6.svg',  style='width: 100px').m-auto
             p.text-center.mb-0 
               b Validación de presencia
             p.text-center Verifica que los campos obligatorios no sean null ni estén vacíos. En Java se utiliza null y el método String.isBlank() (Java 11+).
@@ -71,14 +71,14 @@
           .tarjeta.bg-08.p-4
             .row.justify-content-center.mb-3
               .col-8
-                img(src='@/assets/curso/tema5/7.svg', alt='', style='width: 100px').m-auto
+                img(src='@/assets/curso/tema5/7.svg',  style='width: 100px').m-auto
             p.text-center.mb-0 
               b Validación de consistencia
             p.text-center Comprueba que los datos sean coherentes entre sí. Ejemplo: la fecha de fin no puede ser anterior a la de inicio.
             
     .row.justify-content-center.mt-4
       .col-lg-8
-        p Clarificando lo anterior, se presenta un ejemplo práctico en Java que ilustra la implementación de controles de validación en métodos setter, mostrando cómo verificar tipos, rangos, formatos y valores obligatorios mediante condiciones y excepciones:
+        p Clarificando lo anterior se presenta un ejemplo práctico en Java que ilustra la implementación de controles de validación en métodos setter, mostrando cómo verificar tipos, rangos, formatos y valores obligatorios mediante condiciones y excepciones:
         .row.bg-code3
           .col-lg-12.text-white
             p.mb-0.bloque-codigo public class Estudiante {
@@ -216,7 +216,7 @@
 
               .col-lg-auto.pe-lg-0.mb-4.mb-xl-0.d-flex.d-none.d-lg-block
                 figure.m-0.p-0.w-100.h-100.d-flex
-                  img(src='@/assets/curso/tema5/9.png', alt='', class="w-100 h-100 object-fit-cover", style="margin-left:-10px")
+                  img(src='@/assets/curso/tema5/9.png',  class="w-100 h-100 object-fit-cover", style="margin-left:-10px")
 
     .row.align-items-center.justify-content-center.mt-4
       .col-lg-12
@@ -225,7 +225,7 @@
             .row.d-flex.align-items-center(data-aos="fade-right")
               .col-lg-auto.pe-lg-0.mb-4.mb-xl-0.d-flex.d-none.d-lg-block
                 figure.m-0.p-0.w-100.h-100.d-flex
-                  img(src='@/assets/curso/tema5/10.png', alt='', class="w-100 h-100 object-fit-cover")
+                  img(src='@/assets/curso/tema5/10.png',  class="w-100 h-100 object-fit-cover")
 
               .col-lg.p-4
                 .row.justify-content-center
@@ -284,7 +284,7 @@
     .row.align-items-center
       .col-lg-4.d-none.d-lg-block
         figure
-          img(src='@/assets/curso/tema5/11.png', alt='', style="width: 390px").m-auto
+          img(src='@/assets/curso/tema5/11.png',  style="width: 390px").m-auto
       .col-lg-8.bg-4.p-4
     
         figure.d-flex.d-none.d-lg-block
@@ -314,7 +314,7 @@
             
       .col-lg-4.d-none.d-lg-block
         figure(data-aos="fade-up")
-          img(src='@/assets/curso/tema5/13.png', alt='', style="width: 80%").m-auto
+          img(src='@/assets/curso/tema5/13.png',  style="width: 80%").m-auto
 
 
 

@@ -338,7 +338,7 @@ export default {
     {
       termino: '<strong>@Override</strong>',
       significado:
-        'anotación Java que indica que un método sobreescribe al de la superclase; activa el polimorfismo dinámico.',
+        'anotación Java que indica que un método sobrescribe al de la superclase; activa el polimorfismo dinámico.',
     },
   ],
   referencias: [
@@ -388,7 +388,8 @@ export default {
       autores: [
         {
           nombre: 'Claudia Johanna Gómez Pérez',
-          cargo: 'Responsable del ecosistema',
+          cargo:
+            'Profesional G06. Responsable Ecosistema Virtual de Recursos Educativos Digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {

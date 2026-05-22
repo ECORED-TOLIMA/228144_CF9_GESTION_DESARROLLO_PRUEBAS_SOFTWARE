@@ -8,7 +8,7 @@
       h1 Modelado de sistemas mediante UML
     
     figure
-      img(src='@/assets/curso/tema2/1.png', alt='', style="width: 1226px").m-auto
+      img(src='@/assets/curso/tema2/1.png',  style="width: 1226px").m-auto
     
     p.mt-4 El modelado de sistemas es una etapa fundamental en el ciclo de vida del desarrollo de #[i software]. Antes de escribir código, es necesario diseñar y documentar la estructura del sistema para detectar problemas de diseño, comunicar la arquitectura al equipo y servir de guía durante la implementación. El Lenguaje de Modelado Unificado (UML) es el estándar internacional más utilizado para este propósito.
 
@@ -23,7 +23,7 @@
             .row.d-flex.align-items-center(data-aos="fade-right")
               .col-lg-auto.pe-lg-0.mb-4.mb-xl-0.d-flex.d-none.d-lg-block
                 figure.m-0.p-0.w-100.h-100.d-flex
-                  img(src='@/assets/curso/tema2/2.png', alt='', class="w-100 h-100 object-fit-cover", style="margin-left:-10px")
+                  img(src='@/assets/curso/tema2/2.png',  class="w-100 h-100 object-fit-cover", style="margin-left:-10px")
               .col-lg
                 p El Lenguaje de Modelado Unificado (UML, por sus siglas en inglés Unified Modeling Language) fue desarrollado por Grady Booch, Ivar Jacobson y James Rumbaugh, conocidos como los "Tres Amigos", y adoptado como estándar por el Object Management Group (OMG) en 1997. La versión actual, UML 2.5.1, fue publicada en 2017 y es la referencia oficial del estándar (OMG, 2017).
 
@@ -73,7 +73,7 @@
 
               .col-lg-auto.pe-lg-0.mb-4.mb-xl-0.d-flex.d-none.d-lg-block
                 figure.m-0.p-0.w-100.h-100.d-flex
-                  img(src='@/assets/curso/tema2/5.png', alt='', class="w-100 h-100 object-fit-cover", style="margin-left:-10px")
+                  img(src='@/assets/curso/tema2/5.png',  class="w-100 h-100 object-fit-cover", style="margin-left:-10px")
               
     //-tarjeta numerada
     .row.mt-4 
@@ -173,7 +173,7 @@
             .row.d-flex.align-items-center(data-aos="fade-right")
               .col-lg-auto.pe-lg-0.mb-4.mb-xl-0.d-flex.d-none.d-lg-block
                 figure.m-0.p-0.w-100.h-100.d-flex
-                  img(src='@/assets/curso/tema2/12.png', alt='', class="w-100 h-100 object-fit-cover", style="margin-left:-10px")
+                  img(src='@/assets/curso/tema2/12.png',  class="w-100 h-100 object-fit-cover", style="margin-left:-10px")
               .col-lg
                 p La asociación es la relación más general entre dos clases. Indica que los objetos de una clase conocen o utilizan objetos de otra, sin que ninguna dependa existencialmente de la otra. En Java se implementa mediante un atributo que contiene una referencia a la otra clase. La multiplicidad (1..1, 0..*, 1..*) indica cuántos objetos participan en cada extremo de la relación. A continuación, su ejemplificación:
                 
@@ -218,7 +218,7 @@
               
               .col-lg-auto.pe-lg-0.mb-4.mb-xl-0.d-flex.d-none.d-lg-block
                 figure.m-0.p-0.w-100.h-100.d-flex
-                  img(src='@/assets/curso/tema2/13.png', alt='', class="w-100 h-100 object-fit-cover", style="margin-left:-10px")
+                  img(src='@/assets/curso/tema2/13.png',  class="w-100 h-100 object-fit-cover", style="margin-left:-10px")
               
               
     .titulo-tres.mt-5: h3 Composición
@@ -256,7 +256,7 @@
             .row.d-flex.align-items-center(data-aos="fade-right")
               .col-lg-auto.pe-lg-0.mb-4.mb-xl-0.d-flex.d-none.d-lg-block
                 figure.m-0.p-0.w-100.h-100.d-flex
-                  img(src='@/assets/curso/tema2/14.png', alt='', class="w-100 h-100 object-fit-cover", style="margin-left:-10px")
+                  img(src='@/assets/curso/tema2/14.png',  class="w-100 h-100 object-fit-cover", style="margin-left:-10px")
               .col-lg
                 .cajon.color1.p-4
                   p La relación de herencia o generalización representa la relación "es un" entre clases. La subclase hereda todos los atributos y métodos no privados de la superclase y puede añadir o redefinir comportamientos. En UML se representa con una flecha de triángulo vacío apuntando desde la subclase hacia la superclase.
@@ -283,7 +283,7 @@
         .row.align-items-center
           .col-lg-12
             .cajon.color2.p-4
-              p La figura muestra que las clases Estudiante y Docente heredan de la clase abstracta Persona (indicada con el nombre en cursiva en UML). Ambas subclases tienen sus propios atributos y métodos adicionales, y sobreescriben el método toString() de la clase base.
+              p La figura muestra que las clases Estudiante y Docente heredan de la clase abstracta Persona (indicada con el nombre en cursiva en UML). Ambas subclases tienen sus propios atributos y métodos adicionales, y sobrescriben el método toString() de la clase base.
 
         p.mt-4 La siguiente tabla resume los cuatro tipos de relaciones UML con su notación, la dependencia de vida entre los objetos involucrados y la forma de implementación en Java:
 
@@ -352,7 +352,7 @@
             p Aplicación #[i web] gratuita con soporte UML, integrada en Google Drive, Confluence y GitHub. Es muy utilizada en equipos que trabajan en la nube.
       .col-lg-4.d-none.d-lg-block
         figure(data-aos="fade-up")
-          img(src='@/assets/curso/tema2/17.png', alt='', style="width: 100%").m-auto
+          img(src='@/assets/curso/tema2/17.png',  style="width: 100%").m-auto
 
     .row.justify-content-center.mt-4
       p.text-center La siguiente tabla presenta una comparación de estas herramientas según criterios relevantes para entornos académicos y profesionales:
@@ -411,7 +411,7 @@
     .row.align-items-center
       .col-lg-4.d-none.d-lg-block
         figure
-          img(src='@/assets/curso/tema2/18.png', alt='', style="width: 360px").m-auto
+          img(src='@/assets/curso/tema2/18.png',  style="width: 360px").m-auto
       .col-lg-8.bg-4.p-4
     
         figure.d-flex.d-none.d-lg-block
