@@ -127,7 +127,7 @@
 
     p.mt-4 En Java, las excepciones se organizan en una jerarquía de clases: todas heredan de Throwable. Las dos ramas principales son Error (para errores graves del sistema que no deben capturarse) y Exception. Dentro de Exception se distinguen las excepciones verificadas (checked exceptions, que heredan de Exception) y las no verificadas (unchecked exceptions, que heredan de RuntimeException).
             
-    | Lo anterior, se ilustra con el siguiente ejemplo:
+    | Lo anterior se ilustra con el siguiente ejemplo:
 
     .row.justify-content-center.mt-4
       .col-lg-8
